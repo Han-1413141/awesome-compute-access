@@ -1,0 +1,15 @@
+name: Validate catalog
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  catalog:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate source data, generated documents and local links
+        run: python3 scripts/build.py --check

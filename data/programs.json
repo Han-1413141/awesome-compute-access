@@ -1,0 +1,2699 @@
+{
+  "schema_version": "1.0",
+  "as_of": "2026-10-03",
+  "programs": [
+    {
+      "id": "access-allocations",
+      "name": "ACCESS 研究计算资源分配",
+      "provider": "NSF ACCESS",
+      "categories": [
+        "research",
+        "education",
+        "free-compute"
+      ],
+      "resource_types": [
+        "GPU",
+        "CPU",
+        "HPC"
+      ],
+      "benefit": "通过项目分配免费使用参与机构的 HPC、GPU、内存和存储资源；无需已有 NSF 资助，额度以 ACCESS Credits 换算资源时间。",
+      "eligibility": "项目负责人须在美国并隶属合格机构；研究生可在导师指导下申请 Explore 或 Discover。本科生可作为合格负责人项目的用户。",
+      "region": "境外人员不能直接担任申请负责人；境外合作成员须由美国负责人说明合作并获批。无机构关联者已不符合资格。",
+      "application": "用匹配机构身份的邮箱注册，提交摘要、负责人简历及必要的导师信，然后兑换目标资源。",
+      "limits": "四类项目额度、时长及兑换比例不同；GPU 资源仍须资源方批准。要求公开学术传播，不支持保密商业研究。",
+      "cost_risks": "分配本身免费；获得 ACCESS Credits 不表示已激活目标 GPU。",
+      "status": "application_required",
+      "verification": "official_page",
+      "sources": [
+        "https://allocations.access-ci.org/",
+        "https://allocations.access-ci.org/get-your-first-project",
+        "https://allocations.access-ci.org/allocations-policy"
+      ],
+      "notes": "2025 年更新后的机构关联、邮箱及境外合作限制，比许多旧清单描述更严格。",
+      "verified_on": "2026-10-03"
+    },
+    {
+      "id": "alibaba-ai-catalyst",
+      "name": "Alibaba Cloud AI Catalyst 国际计划",
+      "provider": "Alibaba Cloud",
+      "categories": [
+        "startup"
+      ],
+      "resource_types": [
+        "云抵扣",
+        "API"
+      ],
+      "benefit": "最高120,000美元云支持、最高20亿Model Studio tokens、POC券与12个月Cloud Academy。",
+      "eligibility": "AI为核心产品技术、成立10年内的非上市公司、有网站与使用提案；经销商/分销商账户不符合。",
+      "region": "国际服务；本页未列完整可申请地区，需按注册主体与服务支持地区核对。",
+      "application": "提交官方表单、公司网站和AI使用计划，审核通常4—5个工作日。",
+      "limits": "额度有效期随金额不同；域名、CDN、Marketplace、Academy及预付费产品不在云抵扣范围。",
+      "cost_risks": "最高金额不代表所有人获批；国际站账户与中国站学生券不可默认互通。",
+      "status": "application_required",
+      "verification": "official_page",
+      "sources": [
+        "https://www.alibabacloud.com/en/startup/ai"
+      ],
+      "verified_on": "2026-10-03",
+      "notes": ""
+    },
+    {
+      "id": "aliyun-pai-trial",
+      "name": "阿里云 PAI 新用户试用",
+      "provider": "阿里云",
+      "categories": [
+        "free-compute",
+        "research"
+      ],
+      "resource_types": [
+        "GPU",
+        "CPU",
+        "云抵扣"
+      ],
+      "benefit": "DSW 提供总计 750 CU-Hour、有效期三个月，每月发放 250；EAS 提供 500 元／一个月抵扣，DLC 提供 100 CU-Hour／三个月。",
+      "eligibility": "相应产品从未创建过实例的新用户；须先领取再使用，各产品机会和额度独立。",
+      "region": "仅试用支持的地域与规格，库存由控制台显示。",
+      "application": "阿里云试用中心领取对应产品资源包，再在 PAI 的免费试用入口创建实例。",
+      "limits": "CU-Hour 是折算单位，不是 GPU 小时；DSW 同时只能运行一个试用实例，月内剩余额度受清零规则限制。",
+      "cost_risks": "额度耗尽或到期后未停实例会转按量计费；DSW 超过免费 100 GB 的系统盘扩容即使停机仍收费，删除实例才停止该项。",
+      "status": "active",
+      "verification": "official_page",
+      "sources": [
+        "https://help.aliyun.com/zh/pai/product-overview/free-quota-for-new-users"
+      ],
+      "verified_on": "2026-10-03",
+      "notes": "额度来自当前官方试用文档；闲置自动关机不能替代使用者主动停止或释放资源。"
+    },
+    {
+      "id": "aliyun-startup-cn",
+      "name": "阿里云中国站创业者计划",
+      "provider": "阿里云",
+      "categories": [
+        "startup",
+        "free-compute"
+      ],
+      "resource_types": [
+        "云抵扣",
+        "CPU"
+      ],
+      "benefit": "基础档可申请 3500 元上云抵扣金，更高档最高 100 万元，审核后发放；适用产品包括部分计算、存储、网络、数据库等。",
+      "eligibility": "符合新企业客户要求；从未付费购买云产品，域名、网盘等按 FAQ 例外处理。高额度需投资或孵化加速机构等背景。",
+      "region": "阿里云中国站企业客户。",
+      "application": "在 startup.aliyun.com/startups 填写申请，提交企业及推荐机构信息并接受审核。",
+      "limits": "每企业限申请领取一次；抵扣金自发放起三个月有效，具体可抵产品以适用清单为准。",
+      "cost_risks": "不能保证获最高档；超额、过期及不适用产品由企业付费，GPU 产品是否支持须逐项确认。",
+      "status": "application_required",
+      "verification": "official_page",
+      "sources": [
+        "https://help.aliyun.com/zh/document_detail/2698335.html",
+        "https://startup.aliyun.com/startups"
+      ],
+      "verified_on": "2026-10-03",
+      "notes": "此条为中国站创业者计划，与国际站 AI Catalyst 区分。"
+    },
+    {
+      "id": "aliyun-student-computing-package",
+      "name": "阿里云学生专属算力包",
+      "provider": "阿里云",
+      "categories": [
+        "education",
+        "low-cost"
+      ],
+      "resource_types": [
+        "CPU",
+        "云抵扣"
+      ],
+      "benefit": "提供练手、毕设、科创三档 CPU 算力包；练手包优惠价 19 元，含 150 元计算抵扣额度、有效期一个月。",
+      "eligibility": "已认证中国内地高校学生；企业认证账号、同人账号、欠费账号等不能购买。",
+      "region": "指定地域含北京、杭州、乌兰察布、河源、弗吉尼亚，以购买页可选项为准。",
+      "application": "进入学生算力包购买入口选择套餐；毕设、科创档可按文档规则叠加学生券。",
+      "limits": "每次仅一个有效包；各档有小时抵扣上限和指定 CPU 规格，不是 GPU 免费包。",
+      "cost_risks": "到期实例不会自动释放，会转按量收费；超出抵扣、额外流量和扩盘另计费用。",
+      "status": "active",
+      "verification": "official_page",
+      "sources": [
+        "https://help.aliyun.com/zh/ecs/faqs-on-student-specific-computing-packages"
+      ],
+      "verified_on": "2026-10-03",
+      "notes": "长期档包括毕设包 850 元额度／6 个月、科创包 2000 元额度／6 个月；额度不等于购买价格。"
+    },
+    {
+      "id": "aliyun-student-credit-cn",
+      "name": "阿里云云工开物高校学生 300 元抵扣金",
+      "provider": "阿里云",
+      "categories": [
+        "education",
+        "free-compute"
+      ],
+      "resource_types": [
+        "云抵扣",
+        "CPU"
+      ],
+      "benefit": "完成学生认证后可领取 300 元抵扣金，用于学生用券中心列明的包年包月和按量付费产品。",
+      "eligibility": "中国内地普通全日制高校专科、本科、硕士、博士在校生；须实名及学生认证，非全日制暂不支持。",
+      "region": "中国内地高校学生。",
+      "application": "在阿里云账号中心完成学生认证，再从高校计划入口领取。",
+      "limits": "同一身份证每 365 天限领一次；券一年内有效，次年仍符合条件可再次领取。",
+      "cost_risks": "不是所有云产品通用券；未列入用券范围、超额度和过期后的资源消费需自行支付。",
+      "status": "active",
+      "verification": "official_page",
+      "sources": [
+        "https://help.aliyun.com/zh/account/student-identity-verification",
+        "https://university.aliyun.com/"
+      ],
+      "verified_on": "2026-10-03",
+      "notes": "以当前认证 FAQ 的全日制口径为准，不沿用旧活动对在职研究生的宽泛说明。"
+    },
+    {
+      "id": "amd-ai-hpc-cluster",
+      "name": "AMD AI & HPC Cluster",
+      "provider": "AMD",
+      "categories": [
+        "research",
+        "free-compute"
+      ],
+      "resource_types": [
+        "GPU",
+        "CPU",
+        "HPC"
+      ],
+      "benefit": "经审核免费访问 AMD Instinct GPU 与 EPYC 计算资源，页面列有 MI325、MI300X、MI250、MI210 等平台，并提供技术支持。",
+      "eligibility": "面向学术或非营利研究机构，需要说明研究意义、GPU 需求与计划使用时长，按研究价值及资源匹配评审。",
+      "region": "官方页面未说明完整地区名单。",
+      "application": "从 AMD Cloud Access 页面的 AI & HPC Cluster 入口提交申请，项目按季度审查。",
+      "limits": "通常授予一年访问期，最长一年，具体通知另有说明时按通知执行；需提交成果与年度调查反馈。",
+      "cost_risks": "获批访问免费；数据迁移等未列明费用官方页面未说明。训练代码须适配 ROCm，不能假定所有 CUDA 程序直接运行。",
+      "status": "application_required",
+      "verification": "official_page",
+      "sources": [
+        "https://www.amd.com/en/developer/resources/cloud-access.html"
+      ],
+      "notes": "与同页面向开发者的短期付费云试用分开；研究集群不是每人自动获得一台服务器。",
+      "verified_on": "2026-10-03"
+    },
+    {
+      "id": "amd-developer-cloud-credit",
+      "name": "AMD Developer Cloud 开发者试用",
+      "provider": "AMD",
+      "categories": [
+        "free-compute",
+        "open-source"
+      ],
+      "resource_types": [
+        "GPU",
+        "云抵扣"
+      ],
+      "benefit": "合格开发者首次可申请 25 小时、约 50 美元的 AMD Instinct MI300X 计算额度，由 AMD 审核决定。",
+      "eligibility": "面向独立开发者和开源贡献者，需说明推理、训练、微调或底层编程用途，并提供有效信用卡。",
+      "region": "官方页面未列完整地区名单，须满足合作云服务商的账号与地区规则。",
+      "application": "从 AMD Cloud Access 的 Developer Cloud 入口进入合作云平台，注册后填写 Request Credit；获批后通常三个工作日内到账。",
+      "limits": "额度到账后十天失效，仅适用 MI300X；不包含附加卷、对象存储和备份。不是每个注册用户自动获赠。",
+      "cost_risks": "关机仍扣费或消耗额度，销毁实例才停止实例费用。额度用完或信用卡失效会失去 GPU 与数据访问，需提前导出结果。",
+      "status": "application_required",
+      "verification": "official_page",
+      "sources": [
+        "https://www.amd.com/en/developer/resources/cloud-access.html"
+      ],
+      "verified_on": "2026-10-03",
+      "notes": "这项短期开发者试用与 AMD AI & HPC Cluster 的学术项目申请不同；ROCm 环境需要检查代码兼容性。"
+    },
+    {
+      "id": "anthropic-ai-for-science",
+      "name": "Anthropic AI for Science",
+      "provider": "Anthropic",
+      "categories": [
+        "research",
+        "api"
+      ],
+      "resource_types": [
+        "API"
+      ],
+      "benefit": "2026 年 8 月扩展后的计划允许每个项目申请最高 50,000 美元 Claude 使用额度，支持更广泛科学领域。",
+      "eligibility": "研究者可提交项目；个人须至少 18 岁或达到当地成年年龄。有雇主或研究机构关联时，须取得其必要许可。",
+      "region": "规则明确排除中国、白俄罗斯、俄罗斯、伊朗等所列地区的法律居民，并受其他适用限制约束。",
+      "application": "通过官方科学研究计划入口提交完整申请，获选后额度发到申请中指定的组织账户。",
+      "limits": "具体 Anthropic 产品、额度和使用期限按授予决定；统一期限官方页面未说明。没有裸 GPU 或任意模型训练资源。",
+      "cost_risks": "额度外用量及相关税费由参与者承担；需核对所授额度实际适用的产品。",
+      "status": "application_required",
+      "verification": "official_page",
+      "sources": [
+        "https://www.anthropic.com/news/expanding-support-for-scientists",
+        "https://www.anthropic.com/ai-for-science-program-rules"
+      ],
+      "notes": "保留最新最高 5 万美元口径；旧介绍中的 2 万美元和仅生物科学范围不能直接沿用。",
+      "verified_on": "2026-10-03"
+    },
+    {
+      "id": "anthropic-external-researcher-access",
+      "name": "Anthropic External Researcher Access Program",
+      "provider": "Anthropic",
+      "categories": [
+        "research",
+        "api"
+      ],
+      "resource_types": [
+        "API"
+      ],
+      "benefit": "为重点研究提供 Claude API 额度，通常最高 1,000 美元，特殊需求可说明；优先支持 AI 安全、对齐及相关研究。",
+      "eligibility": "研究者须提交研究计划，可由团队使用同一 Claude Console 组织申请。",
+      "region": "仅限 Anthropic 官方支持的国家和地区，不能把该计划视为绕过服务地区限制的途径。",
+      "application": "通过官方帮助页所链表单申请，通常在每月第一个星期一审阅申请。",
+      "limits": "只适用于 API，不适用于 Claude 网页订阅；不提供未公开模型访问，也不包含模型微调。统一有效期官方页面未说明。",
+      "cost_risks": "超出授予额度的 API 调用按账号计费；本计划不提供可自行部署模型的 GPU。",
+      "status": "application_required",
+      "verification": "official_page",
+      "sources": [
+        "https://support.claude.com/en/articles/9125743-what-is-the-external-researcher-access-program"
+      ],
+      "notes": "API 调用额度与 Claude for Science、开源维护者订阅支持是独立计划。",
+      "verified_on": "2026-10-03"
+    },
+    {
+      "id": "anthropic-startups",
+      "name": "Claude for Startups",
+      "provider": "Anthropic",
+      "categories": [
+        "startup",
+        "api"
+      ],
+      "resource_types": [
+        "API"
+      ],
+      "benefit": "创业社区、Claude API申请额度和优先速率限制；公开页没有承诺统一赠金金额。",
+      "eligibility": "所有早期创始人可加入社区；获得额度需机构股权投资、成立4年内且未领过Anthropic创业额度。",
+      "region": "国际服务；本页未列完整可申请地区，需按注册主体与服务支持地区核对。",
+      "application": "准备Claude Console账户、企业邮箱、网站及产品说明，在表单填写投资方信息。",
+      "limits": "API额度不能直接用于AWS Bedrock或Google Vertex AI；加入社区和获得赠金是两回事。",
+      "cost_risks": "仅限支持地区；API赠金与Claude订阅、Claude Code订阅不自动等价。",
+      "status": "application_required",
+      "verification": "official_page",
+      "sources": [
+        "https://claude.com/programs/startups"
+      ],
+      "verified_on": "2026-10-03",
+      "notes": ""
+    },
+    {
+      "id": "anyscale-startup",
+      "name": "Anyscale AI Startup Program",
+      "provider": "Anyscale",
+      "categories": [
+        "startup"
+      ],
+      "resource_types": [
+        "云抵扣",
+        "平台服务"
+      ],
+      "benefit": "最高20,000美元Anyscale平台额度及工程支持；可运行在自有云账户并与云厂商额度组合。",
+      "eligibility": "AI创业团队，通过项目审核；完整条件由申请流程和FAQ确定。",
+      "region": "国际服务；本页未列完整可申请地区，需按注册主体与服务支持地区核对。",
+      "application": "提交创业项目资料，说明Ray工作负载与现有云环境。",
+      "limits": "Anyscale平台额度与底层AWS/GCP计算账单分开；不能当作20,000美元免费GPU保证。",
+      "cost_risks": "底层云资源、网络和未覆盖平台费用需另算。",
+      "status": "application_required",
+      "verification": "official_page",
+      "sources": [
+        "https://www.anyscale.com/startup"
+      ],
+      "verified_on": "2026-10-03",
+      "notes": ""
+    },
+    {
+      "id": "autodl-gpu-cn",
+      "name": "AutoDL GPU 租用与学生会员",
+      "provider": "AutoDL",
+      "categories": [
+        "low-cost",
+        "education",
+        "research"
+      ],
+      "resource_types": [
+        "GPU"
+      ],
+      "benefit": "支持按量及包日、包周、包月等 GPU 租用；帮助中心列明学生认证会员入口，具体会员权益按认证页确认。",
+      "eligibility": "普通开发者可注册租用；学生权益另需学生认证。",
+      "region": "中国大陆平台；节点与卡型由实时资源市场展示。",
+      "application": "先查资源市场现价，再选择镜像、GPU 数量及计费方式；学生从官方帮助中心进入认证。",
+      "limits": "按量按开关机间隔精确到秒，最低计费 0.01 元；按量关机后 GPU 不保留，具体价格以网站现价为准。",
+      "cost_risks": "GPU 空闲但实例开机仍计费；扩容数据盘独立收费，停机或套餐到期后仍可收费，需缩容或释放。",
+      "status": "active",
+      "verification": "official_page",
+      "sources": [
+        "https://www.autodl.com/docs/price/",
+        "https://api.autodl.com/docs/"
+      ],
+      "verified_on": "2026-10-03",
+      "notes": "包期预付不因关机暂停，可设置到期转按量；不采用第三方固定低价宣传。"
+    },
+    {
+      "id": "aws-academy-learner-lab",
+      "name": "AWS Academy Learner Lab",
+      "provider": "AWS Academy",
+      "categories": [
+        "education"
+      ],
+      "resource_types": [
+        "教学实验",
+        "CPU"
+      ],
+      "benefit": "为高等教育课程提供可持续使用的云实验环境，教师可布置任务并查看学生花费，平台覆盖 100 多项 AWS 服务。",
+      "eligibility": "由合格高等教育机构加入 AWS Academy，授权教师完成入门要求后邀请课程学生。",
+      "region": "面向参加 AWS Academy 的机构；具体国家与成员资格以机构申请审核为准。",
+      "application": "教师或机构管理人员使用机构邮箱申请加入，再通过课程为学生开通实验。",
+      "limits": "不是学生个人直接领取的独立商业账户。每名学生当前统一额度、期限和可用 GPU 官方主页面未说明，取决于实验配置。",
+      "cost_risks": "教师须管理实验预算与允许的服务；不能把第三方常见的“每人 100 美元”当作所有课程保证。",
+      "status": "application_required",
+      "verification": "official_page",
+      "sources": [
+        "https://aws.amazon.com/training/awsacademy/"
+      ],
+      "notes": "与无需学校加入的 AWS Educate 不同，机构和教师是 Learner Lab 的开通入口。",
+      "verified_on": "2026-10-03"
+    },
+    {
+      "id": "aws-activate",
+      "name": "AWS Activate 创业支持",
+      "provider": "AWS",
+      "categories": [
+        "startup"
+      ],
+      "resource_types": [
+        "云抵扣",
+        "CPU",
+        "API",
+        "GPU"
+      ],
+      "benefit": "Founders先1000美元，部分参与者最高5000美元；Portfolio最高200,000美元；更高AI档为邀请制。",
+      "eligibility": "成立10年内、Pre-Series B、Paid Tier账户；Portfolio需Activate合作方Org ID。",
+      "region": "国际服务；本页未列完整可申请地区，需按注册主体与服务支持地区核对。",
+      "application": "用企业邮箱创建Builder ID，选档位，填写产品与融资资料并关联AWS账户。",
+      "limits": "不同档位和历史已领金额会影响审批；GPU仍受区域库存、配额及抵扣范围限制。",
+      "cost_risks": "Paid账户超出赠金或使用不覆盖产品会收费；额度到期日以获批通知为准。",
+      "status": "application_required",
+      "verification": "official_page",
+      "sources": [
+        "https://aws.amazon.com/startups/credits/"
+      ],
+      "verified_on": "2026-10-03",
+      "notes": ""
+    },
+    {
+      "id": "aws-build-on-trainium-research",
+      "name": "AWS Build on Trainium 研究支持",
+      "provider": "AWS",
+      "categories": [
+        "research"
+      ],
+      "resource_types": [
+        "专用加速器",
+        "云抵扣"
+      ],
+      "benefit": "通过研究征集提供 Trainium 计算额度、研究集群与合作支持，研究内容包括模型结构、机器学习库、内核和分布式系统。",
+      "eligibility": "面向高校及学术研究团队，需满足 Amazon Research Awards 对应征集要求，并提出适合 Trainium 的研究计划。",
+      "region": "统一地区资格官方页面未说明，应按当期征集核对。",
+      "application": "从官方研究页面进入 Amazon Research Awards 的征集及提案入口。",
+      "limits": "单项目金额、芯片数及有效期官方页面未说明。Trainium 属专用加速器，需要 Neuron SDK、NKI 或支持框架适配。",
+      "cost_risks": "仅获批范围有资助；不能把平台整体投入当作个人额度，也不能按 NVIDIA GPU 小时直接换算。",
+      "status": "application_required",
+      "verification": "official_page",
+      "sources": [
+        "https://aws.amazon.com/ai/machine-learning/trainium/research/"
+      ],
+      "notes": "官网 1.1 亿美元是整体项目投入。Trainium 是专用加速器，不能将项目投入或芯片数换算为个人 GPU 额度。",
+      "verified_on": "2026-10-03"
+    },
+    {
+      "id": "aws-cloud-credit-research",
+      "name": "AWS Cloud Credit for Research",
+      "provider": "AWS",
+      "categories": [
+        "research"
+      ],
+      "resource_types": [
+        "云抵扣",
+        "CPU",
+        "GPU"
+      ],
+      "benefit": "研究生最高可申请 5,000 美元 AWS 额度；教师与研究人员没有固定申请上限，按提案与预算评审。",
+      "eligibility": "认证研究机构的全职教师、研究人员或研究生，必须使用机构邮箱。支持有限期限的云迁移、基准测试、可复用研究工具及高级工作坊。",
+      "region": "官方 FAQ 明确目前无法处理大中华区申请；其他地区研究者可申请，印度由当地 AWS 实体管理。",
+      "application": "准备 AWS 账户、机构身份、研究提案和费用预算，全年受理，官网给出的审理时间为 90–120 天。",
+      "limits": "不资助实验室日常运营、行政工作和持续的一般研究。EC2 限按需或 Spot；GPU 配额须另行满足。完整有效期官方页面未说明。",
+      "cost_risks": "额度不覆盖所有服务，耗尽或过期后的资源可能收费。",
+      "status": "application_required",
+      "verification": "official_page",
+      "sources": [
+        "https://aws.amazon.com/government-education/research-and-technical-computing/cloud-credit-for-research/",
+        "https://aws.amazon.com/government-education/research-and-technical-computing/cloud-credit-for-research/faqs/"
+      ],
+      "notes": "“全球开放”必须保留大中华区例外。官网计费 FAQ 子链接已重定向，未凭第三方补写有效期。",
+      "verified_on": "2026-10-03"
+    },
+    {
+      "id": "aws-ec2-spot",
+      "name": "Amazon EC2 Spot",
+      "provider": "AWS",
+      "categories": [
+        "low-cost"
+      ],
+      "resource_types": [
+        "GPU",
+        "CPU"
+      ],
+      "benefit": "相对按需价最高可节省90%；适合能从断点恢复的批处理、训练和仿真。",
+      "eligibility": "具备对应云账户、付款能力及目标机型配额；不是学生专享。",
+      "region": "国际服务；本页未列完整可申请地区，需按注册主体与服务支持地区核对。",
+      "application": "在实例配置选择Spot/可抢占，设置自动保存与重试，再查询目标GPU库存。",
+      "limits": "容量可被回收，GPU配额不代表保证库存；最大折扣不是固定优惠。",
+      "cost_risks": "需计算重跑损耗、磁盘、IP和出网费用；没有设置预算时仍可能持续计费。",
+      "status": "active",
+      "verification": "official_page",
+      "sources": [
+        "https://aws.amazon.com/ec2/spot/"
+      ],
+      "verified_on": "2026-10-03",
+      "notes": ""
+    },
+    {
+      "id": "aws-educate",
+      "name": "AWS Educate",
+      "provider": "AWS",
+      "categories": [
+        "education",
+        "free-compute"
+      ],
+      "resource_types": [
+        "教学实验",
+        "CPU"
+      ],
+      "benefit": "免费提供自学课程与实际操作实验，覆盖 S3、EC2、VPC、数据库等入门云服务。",
+      "eligibility": "年满 13 岁的学习者即可注册，不要求必须在校，也不需要信用卡。",
+      "region": "官网面向全球学习者；具体实验可用性与账号规则以平台为准。",
+      "application": "使用电子邮箱在 AWS Educate 官网注册后选择课程和实验。",
+      "limits": "这是受课程约束的实验环境，不能把历史 AWS Educate 云代金券金额当作现行权益。实验时长和资源依课程，不支持任意持续 GPU 训练。",
+      "cost_risks": "项目内学习和实验免费；自行开通独立 AWS 商业账户不属于同一免费保障。",
+      "status": "active",
+      "verification": "official_page",
+      "sources": [
+        "https://aws.amazon.com/education/awseducate/"
+      ],
+      "notes": "应归入教学实验，不应与自由使用的云服务器额度或 AWS 新用户免费层合并。",
+      "verified_on": "2026-10-03"
+    },
+    {
+      "id": "aws-free-tier",
+      "name": "AWS Free Tier 新用户计划",
+      "provider": "AWS",
+      "categories": [
+        "free-compute"
+      ],
+      "resource_types": [
+        "CPU",
+        "云抵扣"
+      ],
+      "benefit": "新账户初始100美元；完成指定探索任务可再得最多100美元。Free plan最多6个月，或额度用尽即结束。",
+      "eligibility": "符合新客户条件的AWS账户；旧账户的历史Free Tier规则不可直接套用。",
+      "region": "国际服务；本页未列完整可申请地区，需按注册主体与服务支持地区核对。",
+      "application": "注册时查看Free和Paid计划区别，领取与完成控制台指定任务。",
+      "limits": "Free plan仅开放所列服务；不能把最高200美元或6个月理解为全服务无限使用。",
+      "cost_risks": "Free plan不自动收超额费，转Paid后开始按量计费；申请其他促销项目可能要求Paid账户。",
+      "status": "active",
+      "verification": "official_page",
+      "sources": [
+        "https://aws.amazon.com/free/"
+      ],
+      "verified_on": "2026-10-03",
+      "notes": ""
+    },
+    {
+      "id": "aws-nonprofit-credit",
+      "name": "AWS Nonprofit Credit Program",
+      "provider": "AWS / TechSoup",
+      "categories": [
+        "nonprofit",
+        "low-cost"
+      ],
+      "resource_types": [
+        "云抵扣",
+        "CPU"
+      ],
+      "benefit": "通过 TechSoup 发放最高 5,000 美元 AWS 额度；美国普通非营利档位为 1,000、2,000 或 5,000 美元，按组织预算选择。",
+      "eligibility": "须为认可的非营利组织或合格公共图书馆；学校和大学不在此计划范围。海外通过 TechSoup 当地伙伴验证。",
+      "region": "官方称全球计划，具体资格与档位由所在地 TechSoup 伙伴确认。",
+      "application": "先完成组织验证再请求额度，每个财政年度可申请一次，有效期至少一年或至用完。",
+      "limits": "适用于符合条件的按量服务；不覆盖预留实例预付费、Marketplace、域名等排除项目，不保证 GPU 配额。",
+      "cost_risks": "美国标准档管理费分别为 95、190、475 美元，故不是零成本；额度耗尽或过期后账户继续收费。",
+      "status": "application_required",
+      "verification": "official_page",
+      "sources": [
+        "https://aws.amazon.com/government-education/nonprofits/nonprofit-credit-program/",
+        "https://page.techsoup.org/amazon-web-services-for-nonprofits"
+      ],
+      "notes": "特定美国互助金融类非营利组织另有 5,000 美元额度、500 美元管理费方案；不得把不同资格档位当作官方金额冲突。",
+      "verified_on": "2026-10-03"
+    },
+    {
+      "id": "azure-for-students",
+      "name": "Azure for Students",
+      "provider": "Microsoft Azure",
+      "categories": [
+        "education"
+      ],
+      "resource_types": [
+        "云抵扣",
+        "CPU",
+        "API"
+      ],
+      "benefit": "符合条件的全日制大学生可获得 100 美元 Azure 额度，有效 12 个月；保持学生资格可每年续领。",
+      "eligibility": "需要学校身份验证及合格学校邮箱，每人限一个账号，用于教学、非商业研究、开发与演示。",
+      "region": "以注册地区及学生资格验证结果为准；官网页面未给出保证中国大陆学生均可使用的承诺。",
+      "application": "从 Azure for Students 官方页面注册并验证学生身份，不要求信用卡。",
+      "limits": "额度不能用于 Azure Marketplace 等排除项目。提供云额度不等于获得 GPU 配额，不能保证直接 GPU 训练。",
+      "cost_risks": "用完 100 美元后，不升级则订阅停用；主动升级到按量付费才进入对应收费规则。",
+      "status": "application_required",
+      "verification": "official_page",
+      "sources": [
+        "https://azure.microsoft.com/en-us/free/students/"
+      ],
+      "notes": "年度续领取决于重新确认学生资格，不能写成永久每年自动发放。",
+      "verified_on": "2026-10-03"
+    },
+    {
+      "id": "azure-free-account",
+      "name": "Azure 免费账户",
+      "provider": "Microsoft Azure",
+      "categories": [
+        "free-compute"
+      ],
+      "resource_types": [
+        "CPU",
+        "云抵扣"
+      ],
+      "benefit": "新用户可获200美元、30天试用；部分产品12个月免费，部分产品有长期按月免费量。",
+      "eligibility": "符合新客户条件，需按注册流程提供身份与付款验证。",
+      "region": "国际服务；本页未列完整可申请地区，需按注册主体与服务支持地区核对。",
+      "application": "创建免费账户并核对每个产品的免费SKU及额度；学生另看Azure for Students。",
+      "limits": "免费虚拟机列表主要是指定CPU规格；Azure Machine Learning管理服务免费不等于训练VM免费。",
+      "cost_risks": "30天或赠金耗尽后继续使用需要转按量付费；注册可能有1美元临时授权。",
+      "status": "active",
+      "verification": "official_page",
+      "sources": [
+        "https://azure.microsoft.com/en-us/pricing/purchase-options/azure-account"
+      ],
+      "verified_on": "2026-10-03",
+      "notes": ""
+    },
+    {
+      "id": "azure-nonprofit-grant",
+      "name": "Azure Grant for Nonprofits",
+      "provider": "Microsoft",
+      "categories": [
+        "nonprofit"
+      ],
+      "resource_types": [
+        "云抵扣",
+        "CPU"
+      ],
+      "benefit": "通过资格验证的非营利组织每年可申请 2,000 美元 Azure 额度，用于 Microsoft 发布的合格 Azure 服务。",
+      "eligibility": "须具有当地认可的非营利法律地位及公益使命；个人、学校、大学等列为不符合此计划的主体。",
+      "region": "非营利优惠覆盖多个国家和地区，但具体 Azure 产品和可用云区域会有差异。",
+      "application": "由组织员工或符合条件的志愿管理人员完成 Microsoft 非营利验证，再激活 Azure 资助。",
+      "limits": "额度使用期 12 个月，未用余额不结转；保持资格可每年续领。并非现金，也不保证 GPU 配额。",
+      "cost_risks": "需要信用卡；用完 2,000 美元后订阅转为按量付费，继续运行的资源会收费。",
+      "status": "application_required",
+      "verification": "official_page",
+      "sources": [
+        "https://www.microsoft.com/en-us/nonprofits/azure",
+        "https://www.microsoft.com/en-us/nonprofits/faq",
+        "https://www.microsoft.com/en-us/nonprofits/eligibility"
+      ],
+      "notes": "当前官方额度为每年 2,000 美元，不能沿用旧清单中的 3,500 美元。",
+      "verified_on": "2026-10-03"
+    },
+    {
+      "id": "azure-spot-vms",
+      "name": "Azure Spot Virtual Machines",
+      "provider": "Microsoft Azure",
+      "categories": [
+        "low-cost"
+      ],
+      "resource_types": [
+        "GPU",
+        "CPU"
+      ],
+      "benefit": "官方提供闲置容量折扣，价格按机型与地区变化；适合能从断点恢复的批处理、训练和仿真。",
+      "eligibility": "具备对应云账户、付款能力及目标机型配额；不是学生专享。",
+      "region": "国际服务；本页未列完整可申请地区，需按注册主体与服务支持地区核对。",
+      "application": "在实例配置选择Spot/可抢占，设置自动保存与重试，再查询目标GPU库存。",
+      "limits": "容量可被回收，GPU配额不代表保证库存；最大折扣不是固定优惠。",
+      "cost_risks": "需计算重跑损耗、磁盘、IP和出网费用；没有设置预算时仍可能持续计费。",
+      "status": "active",
+      "verification": "official_page",
+      "sources": [
+        "https://azure.microsoft.com/en-us/products/virtual-machines/spot"
+      ],
+      "verified_on": "2026-10-03",
+      "notes": ""
+    },
+    {
+      "id": "baidu-aistudio-cn",
+      "name": "百度 AI Studio 免费开发算力（当前配额待核）",
+      "provider": "百度飞桨",
+      "categories": [
+        "free-compute",
+        "education",
+        "research"
+      ],
+      "resource_types": [
+        "GPU",
+        "教学实验"
+      ],
+      "benefit": "飞桨历史官方材料介绍 AI Studio 提供在线 Notebook 和免费 GPU，用于学习、项目开发及模型实验。",
+      "eligibility": "百度 AI Studio 用户；当前领取资格及实名认证要求须在正式入口确认。",
+      "region": "中国大陆平台。",
+      "application": "从 AI Studio 官方入口进入项目或开发环境，确认免费资源选项、有效期和扣费提示。",
+      "limits": "本轮官网为动态页面，未能读到当前免费 GPU 型号、每周额度、单次运行时限或存储配额。",
+      "cost_risks": "免费资源、会员和付费算力须区分；不要按旧活动的卡时承诺安排训练，也应提前导出重要结果。",
+      "status": "unverified",
+      "verification": "official_link_only",
+      "sources": [
+        "https://aistudio.baidu.com/",
+        "https://www.paddlepaddle.org.cn/support/news?action=detail&id=3387"
+      ],
+      "verified_on": "2026-10-03",
+      "notes": "保留重要平台入口，但不认定当前免费配额已核实；旧活动 72 小时、168 小时等数字未采用。"
+    },
+    {
+      "id": "baseten-startup",
+      "name": "Baseten AI Startup Program",
+      "provider": "Baseten",
+      "categories": [
+        "startup"
+      ],
+      "resource_types": [
+        "GPU",
+        "API",
+        "云抵扣"
+      ],
+      "benefit": "最高25,000美元Dedicated Inference/Training额度，加最高2500美元Model API额度；获批后6个月内使用。",
+      "eligibility": "早期、AI-first且VC支持的新客户；教育机构、政府、非营利、咨询/外包等不在接受范围。",
+      "region": "国际服务；本页未列完整可申请地区，需按注册主体与服务支持地区核对。",
+      "application": "通过Startup Program表单提交公司与用途，并阅读法律说明。",
+      "limits": "额度仅限指定产品；此前领取过额度及近期付费订阅情况会影响新客户资格。",
+      "cost_risks": "6个月未用额度过期；超額及未覆盖服务按正常价收费。",
+      "status": "application_required",
+      "verification": "official_page",
+      "sources": [
+        "https://www.baseten.co/startup-program/",
+        "https://www.baseten.co/startup-program-legal-disclaimers/"
+      ],
+      "verified_on": "2026-10-03",
+      "notes": ""
+    },
+    {
+      "id": "beijing-etda-compute-voucher-2026h1",
+      "name": "北京经开区 2026 年上半年算力券兑现申报（已截止）",
+      "provider": "北京经济技术开发区管理委员会",
+      "categories": [
+        "china-policy",
+        "startup",
+        "research"
+      ],
+      "resource_types": [
+        "费用补贴"
+      ],
+      "benefit": "面向符合北京经开区条件的算力使用主体开展本批算力券兑现；金额、比例及支出范围应按该通知附件确认。",
+      "eligibility": "须满足本批申报指南和经开区地域条件，不能视为全国个人开发者福利。",
+      "region": "北京经济技术开发区。",
+      "application": "原渠道为北京市政策兑现平台或经开区政策兑现平台，按通知上传材料。",
+      "limits": "本批申报期为 2026 年 8 月 31 日至 9 月 20 日；官方页面明确标注失效。",
+      "cost_risks": "兑现需要符合条件的合同与支出证据；未通过审核的费用由申请人承担，不自动抵扣任意平台账单。",
+      "status": "closed",
+      "verification": "official_page",
+      "sources": [
+        "https://kfqgw.beijing.gov.cn/zwgkkfq/2024zcwj/202608/t20260826_4837978.html",
+        "https://zcdx.kfqgw.beijing.gov.cn"
+      ],
+      "verified_on": "2026-10-03",
+      "notes": "没有把早年北京算力券的额度、比例移用到本批；保留此条便于跟踪后续通知。"
+    },
+    {
+      "id": "cerebras-api-trial",
+      "name": "Cerebras Inference 新用户试用",
+      "provider": "Cerebras",
+      "categories": [
+        "api"
+      ],
+      "resource_types": [
+        "API"
+      ],
+      "benefit": "官方当前FAQ为绑定已验证付款方式后赠5美元，有效30天；明确没有自动续给的永久免费层。",
+      "eligibility": "新账户且添加经验证付款方式；不绑定时API和Playground不激活。",
+      "region": "国际服务；本页未列完整可申请地区，需按注册主体与服务支持地区核对。",
+      "application": "注册后完成付款验证，在Limits查看Free Trial配额。",
+      "limits": "试用额度用尽或过期后访问停止，需购买额度继续；不同模型限速不同。",
+      "cost_risks": "试用不是每天免费；只有主动购买后进入付费使用，具体费用按模型表。",
+      "status": "active",
+      "verification": "official_page",
+      "sources": [
+        "https://inference-docs.cerebras.ai/support/rate-limits"
+      ],
+      "verified_on": "2026-10-03",
+      "notes": "纠正常见目录仍称Cerebras无限续期免费API的旧信息。"
+    },
+    {
+      "id": "cerebras-inference-research-grants-2024",
+      "name": "Cerebras Inference Research Grants（2024–2025 征集）",
+      "provider": "Cerebras",
+      "categories": [
+        "research",
+        "api"
+      ],
+      "resource_types": [
+        "API"
+      ],
+      "benefit": "历史征集提供最高 50,000 美元 Cerebras 推理额度，用于围绕高速推理开展学术研究。",
+      "eligibility": "原征集面向大学教师或研究负责人，机构需完成研究协议，要求开放科学成果。",
+      "region": "官方征集页面未说明完整地区名单。",
+      "application": "该轮已于 2025 年 2 月 17 日停止接收提案；本次不提供仍可申请的表述。",
+      "limits": "原申请需英文研究提案和简历。该条记录的是已关闭的一轮，未找到同页已重新开放的新一轮。",
+      "cost_risks": "历史资助不能作为当前预算来源；所给资源是推理服务，不能等同于 Cerebras 训练硬件访问。",
+      "status": "closed",
+      "verification": "official_page",
+      "sources": [
+        "https://www.cerebras.ai/blog/grantfrp"
+      ],
+      "notes": "页面保留资助信息但征集已结束；不沿用第三方“持续开放”或“每季度申请”的说法。",
+      "verified_on": "2026-10-03"
+    },
+    {
+      "id": "claude-for-open-source",
+      "name": "Claude for Open Source",
+      "provider": "Anthropic",
+      "categories": [
+        "open-source"
+      ],
+      "resource_types": [
+        "工具订阅"
+      ],
+      "benefit": "入选者获得六个月 Claude Max 20x，初始规模最多 10,000 名，可由 Anthropic 扩大。",
+      "eligibility": "个人须成年、GitHub 账户至少两年、90 天内有公开贡献并参与 OSI 许可项目。维护者可按依赖数、下载量、贡献或关键性门槛申请，也有生态影响通道。",
+      "region": "须为提供 Claude.ai 服务地区的法律居民，并符合适用限制。",
+      "application": "通过官方申请入口用 GitHub 验证，提交用途与资格说明，滚动审核；获批礼码须在 90 天内激活。",
+      "limits": "每人同时仅一份，满足门槛不保证获批。六个月从激活日起计，不包含通用 API 余额或 GPU；续申仍须审核。",
+      "cost_risks": "额外用量可能收费；此前付费订阅会在资助结束后恢复原计划及价格，原免费账号则回到免费计划。",
+      "status": "application_required",
+      "verification": "official_page",
+      "sources": [
+        "https://claude.com/contact-sales/claude-for-oss",
+        "https://www.anthropic.com/claude-for-oss-terms"
+      ],
+      "verified_on": "2026-10-03",
+      "notes": "当前维护者标准含 500 个依赖仓库、100 个依赖包或月下载 20 万等路径，不沿用旧第三方清单的星标门槛。"
+    },
+    {
+      "id": "cloudflare-startups",
+      "name": "Cloudflare for Startups",
+      "provider": "Cloudflare",
+      "categories": [
+        "startup"
+      ],
+      "resource_types": [
+        "CPU",
+        "API",
+        "云抵扣"
+      ],
+      "benefit": "一年内最高10,000/100,000/350,000美元三级额度；自筹资金档无最低融资要求。",
+      "eligibility": "按融资额及是否由合作机构支持分档，并需满足成立年限等要求。",
+      "region": "国际服务；本页未列完整可申请地区，需按注册主体与服务支持地区核对。",
+      "application": "准备公司网站、企业邮箱和融资资料，通过项目表单申请并关联Cloudflare账户。",
+      "limits": "Workers AI抵扣有最高50,000美元子上限，R2最高10,000美元；不含Registrar及AI Gateway。",
+      "cost_risks": "要求有效付款方式；子额度、总额度或期限超出后可自动计费。",
+      "status": "application_required",
+      "verification": "official_page",
+      "sources": [
+        "https://www.cloudflare.com/startups/"
+      ],
+      "verified_on": "2026-10-03",
+      "notes": "边缘平台/API权益，不是可以SSH使用的GPU服务器。"
+    },
+    {
+      "id": "cloudflare-workers-ai",
+      "name": "Cloudflare Workers AI 免费配额",
+      "provider": "Cloudflare",
+      "categories": [
+        "api"
+      ],
+      "resource_types": [
+        "API"
+      ],
+      "benefit": "每日免费10,000 Neurons；用量每日UTC 00:00重置，模型按各自Neuron换算率消耗。",
+      "eligibility": "Workers Free或Paid账户；部分模型另要求付费付款方式。",
+      "region": "国际服务；本页未列完整可申请地区，需按注册主体与服务支持地区核对。",
+      "application": "开启Workers AI并选模型，通过仪表板追踪每日Neuron用量。",
+      "limits": "Neurons不是token或GPU小时，不同模型不能直接按同一token数换算。",
+      "cost_risks": "超出免费量需Workers Paid；当前额外用量为每1000 Neurons 0.011美元，另核对模型专项价格。",
+      "status": "active",
+      "verification": "official_page",
+      "sources": [
+        "https://developers.cloudflare.com/workers-ai/platform/pricing/"
+      ],
+      "verified_on": "2026-10-03",
+      "notes": ""
+    },
+    {
+      "id": "cloudflare-workers-free",
+      "name": "Cloudflare Workers 免费边缘计算",
+      "provider": "Cloudflare",
+      "categories": [
+        "free-compute"
+      ],
+      "resource_types": [
+        "CPU"
+      ],
+      "benefit": "Workers Free包含每天100,000请求；适合轻量API、Webhook和边缘逻辑。",
+      "eligibility": "Cloudflare账户，使用Workers Free方案。",
+      "region": "国际服务；本页未列完整可申请地区，需按注册主体与服务支持地区核对。",
+      "application": "创建Worker，按限制文档核对CPU时间、请求数与绑定服务。",
+      "limits": "这是受约束的边缘运行时，不是完整VM或GPU训练环境；存储、队列等各有独立限额。",
+      "cost_risks": "升级Workers Paid或使用付费绑定服务会产生费用；请求数不代表无限CPU时间。",
+      "status": "active",
+      "verification": "official_page",
+      "sources": [
+        "https://developers.cloudflare.com/workers/platform/pricing/"
+      ],
+      "verified_on": "2026-10-03",
+      "notes": ""
+    },
+    {
+      "id": "codex-for-open-source",
+      "name": "Codex for Open Source",
+      "provider": "OpenAI",
+      "categories": [
+        "open-source",
+        "api"
+      ],
+      "resource_types": [
+        "工具订阅",
+        "API"
+      ],
+      "benefit": "入选维护者可获六个月含 Codex 的 ChatGPT Pro；项目还可申请用于开源维护工作的 API 额度及有条件的 Codex Security 访问。",
+      "eligibility": "面向活跃开源项目主要或核心维护者，考虑实际使用、生态重要性和维护贡献；须有有效 ChatGPT 账户及公开 GitHub 信息。",
+      "region": "受 OpenAI 服务可用地区与适用规则约束；项目页面未列独立地区名单。",
+      "application": "通过官方表单提交 GitHub 项目、维护者角色及用途，滚动审核；API 申请需组织 ID。",
+      "limits": "API 额度和 Security 访问需额外评审，不保证三项权益同时获批。API 金额和统一有效期官方页面未说明。",
+      "cost_risks": "订阅及额度不可转让、共享或提现；Pro 资助到期后的具体账单处理官方计划页面未说明，须核对获批说明。",
+      "status": "application_required",
+      "verification": "official_page",
+      "sources": [
+        "https://developers.openai.com/community/codex-for-oss",
+        "https://openai.com/form/codex-for-oss/",
+        "https://learn.chatgpt.com/docs/codex-for-oss-terms"
+      ],
+      "verified_on": "2026-10-03",
+      "notes": "属于开发工具订阅及 API 支持，不是 GPU 训练额度；百万美元基金规模不是单项目授予额。"
+    },
+    {
+      "id": "cohere-catalyst-grants",
+      "name": "Cohere Labs Catalyst Grants",
+      "provider": "Cohere Labs",
+      "categories": [
+        "research",
+        "api"
+      ],
+      "resource_types": [
+        "API"
+      ],
+      "benefit": "为具有公共价值的研究提供生产 API 额度与模型访问，支持学术研究、开放科学及公共利益项目。",
+      "eligibility": "面向学术伙伴和相关研究团队，需要提交研究目标、团队情况和计划用途，申请滚动受理。",
+      "region": "官方页面未说明完整地区名单，服务使用仍受 Cohere 适用条款约束。",
+      "application": "通过 Cohere Research Grants 官方页面进入申请表。",
+      "limits": "单项目额度、有效期和速率限制官方页面未说明。安全研究须及时披露漏洞；相关论文按要求提前四周提交。",
+      "cost_risks": "API 额度不是训练 GPU；生产 API 超出资助范围后的费用需按账户规则管理。",
+      "status": "application_required",
+      "verification": "official_page",
+      "sources": [
+        "https://cohere.com/research/grants"
+      ],
+      "notes": "官网累计投入金额和累计获资助项目数不能换算成每项目保证金额。",
+      "verified_on": "2026-10-03"
+    },
+    {
+      "id": "digitalocean-startups",
+      "name": "DigitalOcean Startups",
+      "provider": "DigitalOcean",
+      "categories": [
+        "startup"
+      ],
+      "resource_types": [
+        "云抵扣",
+        "CPU",
+        "API"
+      ],
+      "benefit": "12个月云额度，金额按审批；另含15个月Standard支持与技术辅导。",
+      "eligibility": "符合DigitalOcean创业项目审核条件；账户历史和合作方身份需核对。",
+      "region": "国际服务；本页未列完整可申请地区，需按注册主体与服务支持地区核对。",
+      "application": "在官方项目页申请，提交企业资料与资源使用计划。",
+      "limits": "本页没有对所有申请人承诺统一总金额；GPU产品是否被额度覆盖须在批复中确认。",
+      "cost_risks": "赠金不覆盖、超出赠金或项目到期后的资源按标准价计费。",
+      "status": "application_required",
+      "verification": "official_page",
+      "sources": [
+        "https://www.digitalocean.com/startups"
+      ],
+      "verified_on": "2026-10-03",
+      "notes": "与已无法确认领取的GitHub学生200美元计划不同。"
+    },
+    {
+      "id": "digitalocean-student-historical",
+      "name": "DigitalOcean GitHub 学生200美元优惠（待核实）",
+      "provider": "DigitalOcean",
+      "categories": [
+        "education"
+      ],
+      "resource_types": [
+        "云抵扣"
+      ],
+      "benefit": "历史目录广泛记载200美元学生额度；本轮未确认仍有可领取权益。",
+      "eligibility": "历史上通过GitHub学生认证领取；当前领取资格未获官方确认。",
+      "region": "国际服务；本页未列完整可申请地区，需按注册主体与服务支持地区核对。",
+      "application": "先查看GitHub Pack当前清单；旧领取入口已经跳到DigitalOcean主页。",
+      "limits": "不能依据旧README写“每年200美元”或默认能支付GPU；旧入口可访问不证明活动有效。",
+      "cost_risks": "不要为领取未经确认的旧优惠创建付费资源或购买账户。",
+      "status": "unverified",
+      "verification": "official_link_only",
+      "sources": [
+        "https://www.digitalocean.com/github-students",
+        "https://education.github.com/pack"
+      ],
+      "verified_on": "2026-10-03",
+      "notes": "社区回复提供停用线索，但未用社区回复作为官方关闭日期的依据。"
+    },
+    {
+      "id": "egi-access-call",
+      "name": "EGI Access Call",
+      "provider": "EGI",
+      "categories": [
+        "research",
+        "free-compute"
+      ],
+      "resource_types": [
+        "CPU",
+        "GPU",
+        "HPC"
+      ],
+      "benefit": "经审核提供赞助计算、存储、平台服务、培训与技术支持，并匹配合适的资源供应机构。",
+      "eligibility": "个人研究者、研究项目、研究基础设施、科研社区以及从事研究的商业实体均可提交需求，按目标和技术可行性审核。",
+      "region": "由 EGI 及国家、国际资源提供方匹配；完整适用地区名单官方页面未说明。",
+      "application": "官方 Access Call 滚动接收申请，准备项目目标、计算需求和成熟度说明，审核及匹配通常约 3–4 周。",
+      "limits": "不提供指定数据集访问。资源量、期限和 GPU 是否可用按匹配结果决定，不能保证每个项目均有 GPU。",
+      "cost_risks": "赞助覆盖范围按获批服务确定；未覆盖费用官方页面未说明。",
+      "status": "application_required",
+      "verification": "official_page",
+      "sources": [
+        "https://www.egi.eu/egi-access-call"
+      ],
+      "notes": "该计划是研究资源撮合和资助入口，不是注册即获得固定云余额。",
+      "verified_on": "2026-10-03"
+    },
+    {
+      "id": "eurohpc-ai-factories",
+      "name": "EuroHPC AI Factories 计算资源申请",
+      "provider": "EuroHPC JU",
+      "categories": [
+        "research",
+        "startup",
+        "free-compute"
+      ],
+      "resource_types": [
+        "GPU",
+        "HPC"
+      ],
+      "benefit": "合格科研项目及 AI 中小企业可申请免费超算。工业 Fast Lane 支持最高 50,000 GPU 小时，Large Scale 面向更大需求；科研额度按评审分配。",
+      "eligibility": "科研通道面向合格科研、公共部门及指定欧盟合作项目；工业免费通道针对 AI 中小企业创新。其他商业使用可按量付费。",
+      "region": "科研入口面向设立在欧盟成员国或 Horizon 2020 关联第三国的合格机构；各机器和份额另有资格规则。",
+      "application": "通过 EuroHPC Access 门户提交技术计划和提案，按指定截止批次评审。",
+      "limits": "AI for Science 通道分配期为 6 个月；2026 年后续截止日含 10 月 30 日与 12 月 11 日。资源紧张时部分分区不可选。",
+      "cost_risks": "免费科研与商业付费通道应分清；获批机时不可当作现金。",
+      "status": "application_required",
+      "verification": "official_page",
+      "sources": [
+        "https://www.eurohpc-ju.europa.eu/ai-factories/ai-factories-access-modes_en",
+        "https://www.eurohpc-ju.europa.eu/eurohpc-ju-call-proposals-ai-science-and-collaborative-eu-projects_en",
+        "https://www.eurohpc-ju.europa.eu/ai-factories/faqs-ai-factories_en"
+      ],
+      "notes": "工业通道的 50,000 GPU 小时分界不能套用为所有科研项目的上限；各通道期限不同。",
+      "verified_on": "2026-10-03"
+    },
+    {
+      "id": "fal-research-grants",
+      "name": "fal Research Grants",
+      "provider": "fal",
+      "categories": [
+        "research",
+        "open-source"
+      ],
+      "resource_types": [
+        "GPU",
+        "云抵扣"
+      ],
+      "benefit": "为有价值的开源 AI 项目提供免费计算支持，官方展示了使用资助训练开源模型的案例。",
+      "eligibility": "研究者和自学开发者均可申请，不要求正式学位；项目应说明对开源 AI 社区的价值。",
+      "region": "官方页面未说明地区限制。",
+      "application": "按官网说明发送项目目标、计算需求和已有作品至 grants@fal.ai；已有 GitHub 项目可作为材料。",
+      "limits": "每项目金额、GPU 型号、小时数和有效期官方页面未说明，须经评估确定。",
+      "cost_risks": "不能把研究资助理解成对 fal 所有付费产品无限使用；实际覆盖服务应以批准结果为准。",
+      "status": "application_required",
+      "verification": "official_page",
+      "sources": [
+        "https://fal.ai/grants"
+      ],
+      "notes": "适合开源训练项目申请；邮件是申请入口，本次仅记录入口，没有发送申请。",
+      "verified_on": "2026-10-03"
+    },
+    {
+      "id": "featurize-gpu",
+      "name": "Featurize GPU 云算力",
+      "provider": "Featurize",
+      "categories": [
+        "low-cost",
+        "research"
+      ],
+      "resource_types": [
+        "GPU"
+      ],
+      "benefit": "提供按量与包月 GPU 租用；官网展示 RTX 4090、RTX 3090、RTX PRO 6000 等配置，并列有 30 GB 免费云盘。",
+      "eligibility": "注册平台账号并满足充值、租用规则的开发者和研究用户。",
+      "region": "中国大陆平台，具体机器位置以实例列表为准。",
+      "application": "在官网查看可租机器、实时单价与存储配置后创建实例。",
+      "limits": "官网“低至”宣传价随机型和套餐变化；本条不承诺固定成交价。首充满 5 元送一小时体验券，须先充值。",
+      "cost_risks": "首充体验不是零付费注册领取；本地盘与长期云盘不同，租赁费及额外存储应按订单规则确认。",
+      "status": "active",
+      "verification": "official_page",
+      "sources": [
+        "https://featurize.cn/",
+        "https://docs.featurize.cn/"
+      ],
+      "verified_on": "2026-10-03",
+      "notes": "选择时同时比较显存、CPU、内存及磁盘，不只比较 GPU 型号；未进行付费实测。"
+    },
+    {
+      "id": "gemini-academic-program",
+      "name": "Gemini Academic Program",
+      "provider": "Google",
+      "categories": [
+        "research",
+        "api"
+      ],
+      "resource_types": [
+        "API"
+      ],
+      "benefit": "合格学术研究者可获得 Gemini API 额度及更高速率限制，支持评测、科学发现、具身智能和多模态等实验。",
+      "eligibility": "必须关联有效学术机构或学术研究组织，官方举例包括教师、研究人员及博士生；按研究项目申请。",
+      "region": "仅限 Gemini API 支持的国家和地区。",
+      "application": "从 Gemini for Research 官方文档进入申请表，按月审核。",
+      "limits": "每项目金额、有效期和提高后的具体速率官方页面未说明，访问权和额度由 Google 决定授予或撤回。",
+      "cost_risks": "提供模型调用资源，不提供可自行训练任意模型的 GPU；额度外调用须按适用账户规则管理。",
+      "status": "application_required",
+      "verification": "official_page",
+      "sources": [
+        "https://ai.google.dev/gemini-api/docs/gemini-for-research"
+      ],
+      "notes": "研究资助和 Gemini API 的普通免费层是不同项目，不能把二者的资格及限制混写。",
+      "verified_on": "2026-10-03"
+    },
+    {
+      "id": "gemini-api-free",
+      "name": "Gemini Developer API 免费层",
+      "provider": "Google",
+      "categories": [
+        "api"
+      ],
+      "resource_types": [
+        "API"
+      ],
+      "benefit": "部分模型提供免费API层；模型、模态和功能各自定价，并非全部模型永久免费。",
+      "eligibility": "符合Gemini API支持地区与年龄等要求的Google账户。",
+      "region": "官方支持地区列表本轮未包含中国大陆；以申请主体所在地核对官方名单。",
+      "application": "在AI Studio创建项目与API key，选价格表明确标为Free的模型，查看项目Limits。",
+      "limits": "RPM/TPM/每日量因模型和项目变化；免费层数据使用规则与付费层不同。",
+      "cost_risks": "启用付费账单、收费模型或收费功能后按对应价格计费；API额度不提供GPU租机。",
+      "status": "active",
+      "verification": "official_page",
+      "sources": [
+        "https://ai.google.dev/gemini-api/docs/pricing",
+        "https://ai.google.dev/gemini-api/docs/available-regions"
+      ],
+      "verified_on": "2026-10-03",
+      "notes": "地区列表需单独核对，不能用中文界面推断中国大陆具备申请资格。"
+    },
+    {
+      "id": "github-codespaces",
+      "name": "GitHub Codespaces 个人免费额度",
+      "provider": "GitHub",
+      "categories": [
+        "free-compute",
+        "education"
+      ],
+      "resource_types": [
+        "CPU"
+      ],
+      "benefit": "个人Free账户每月120核心小时与15GB-month存储；Pro为180核心小时与20GB-month。",
+      "eligibility": "GitHub个人账户；组织与企业计划不自动享有同样免费配额。",
+      "region": "国际服务；本页未列完整可申请地区，需按注册主体与服务支持地区核对。",
+      "application": "从仓库打开Codespace，按机器核心数估算可用时长，并在Billing检查预算。",
+      "limits": "120核心小时在2核机器上约60个实际小时；不是120小时任意规格，也不包含GPU。",
+      "cost_risks": "停止计算后保留的Codespace仍消耗存储；有付款方式时超配额会计费。",
+      "status": "active",
+      "verification": "official_page",
+      "sources": [
+        "https://docs.github.com/en/billing/concepts/product-billing/github-codespaces"
+      ],
+      "verified_on": "2026-10-03",
+      "notes": ""
+    },
+    {
+      "id": "github-secure-open-source-fund",
+      "name": "GitHub Secure Open Source Fund",
+      "provider": "GitHub",
+      "categories": [
+        "open-source"
+      ],
+      "resource_types": [
+        "云抵扣"
+      ],
+      "benefit": "入选项目可获 10,000 美元 Azure 额度及 10,000 美元分阶段现金资助，并参加开源安全培训。",
+      "eligibility": "维护者须满 18 岁，项目在 GitHub 活跃、具有明确开源许可及一定使用基础；须满足 GitHub Sponsors 支持地区要求。",
+      "region": "GitHub Sponsors 支持的地区，另按项目资格审核。",
+      "application": "滚动提交申请并参加面试；每个团队最多两人参加。",
+      "limits": "包含约三周、15 小时的培训，以及 6 和 12 个月后的跟进。Azure 额度有效期官方页面未说明，也不保证 GPU 配额。",
+      "cost_risks": "现金与云抵扣不同，Azure 额度不能自由提现；超出覆盖的 Azure 使用可能收费。",
+      "status": "application_required",
+      "verification": "official_page",
+      "sources": [
+        "https://github.com/open-source/github-secure-open-source-fund"
+      ],
+      "notes": "页面另提到最高 15 万美元创业计划，需要另行满足资格，不能并入本基金的保证权益。",
+      "verified_on": "2026-10-03"
+    },
+    {
+      "id": "github-student-developer-pack",
+      "name": "GitHub Student Developer Pack",
+      "provider": "GitHub",
+      "categories": [
+        "education"
+      ],
+      "resource_types": [
+        "CPU",
+        "云抵扣",
+        "工具订阅"
+      ],
+      "benefit": "通过学生认证后可领取开发工具和合作方权益；当前学生包列有 Codespaces Pro 等级访问、Azure 学生入口等。各合作权益按自己的条件领取。",
+      "eligibility": "年满 13 岁、在授予学位或文凭的课程中就读，持 GitHub 个人账号并证明在读身份。教师或研究人员不能仅凭任职身份领取学生包。",
+      "region": "GitHub 学生认证与每个合作服务的地区限制分别适用；通过学生认证不代表所有云服务在所在地可用。",
+      "application": "在 GitHub 账号 Education benefits 中开始申请，按提示提交学校邮箱或带当前日期的学生证、课表、成绩单、在读证明等。",
+      "limits": "学生认证有效两年，之后需重新认证。第三方限时权益不能通过重新认证重复领取，也可能不能与已领取试用叠加。",
+      "cost_risks": "学生包本身不是统一现金余额；各云服务的绑卡、超额与到期计费分别核对。Codespaces 也有用量边界，未承诺 GPU。",
+      "status": "application_required",
+      "verification": "official_page",
+      "sources": [
+        "https://education.github.com/pack",
+        "https://docs.github.com/en/education/about-github-education/github-education-for-students/apply-to-github-education-as-a-student",
+        "https://docs.github.com/en/education/about-github-education/github-education-for-students/github-terms-and-conditions-for-the-student-developer-pack"
+      ],
+      "verified_on": "2026-10-03",
+      "notes": "本条是教育认证及权益集合入口。Azure、Heroku、Codespaces 的独立条目用于解释具体服务，不能与本条重复累加权益金额。"
+    },
+    {
+      "id": "google-cloud-free",
+      "name": "Google Cloud 免费试用与Free Tier",
+      "provider": "Google Cloud",
+      "categories": [
+        "free-compute"
+      ],
+      "resource_types": [
+        "CPU",
+        "云抵扣"
+      ],
+      "benefit": "符合资格的新用户获300美元欢迎额度、有效90天；部分产品另有按月免费量。",
+      "eligibility": "从未付费使用Google Cloud/Maps/Firebase且未领过试用；注册需按官方流程核验。",
+      "region": "国际服务；本页未列完整可申请地区，需按注册主体与服务支持地区核对。",
+      "application": "创建试用账单账户；若需GPU，先确认是否必须转付费账户及GPU配额。",
+      "limits": "Free Trial默认没有GPU配额，不能申请提高配额；通用赠金不能被描述为已分配GPU。",
+      "cost_risks": "转付费后保留未过期赠金，但不被赠金覆盖的产品和超额用量会计费。",
+      "status": "active",
+      "verification": "official_page",
+      "sources": [
+        "https://docs.cloud.google.com/free/docs/free-cloud-features",
+        "https://docs.cloud.google.com/kubernetes-engine/docs/how-to/gpus"
+      ],
+      "verified_on": "2026-10-03",
+      "notes": "记录的是云试用，实际GPU可用性必须另核对配额、产品及区域。"
+    },
+    {
+      "id": "google-cloud-research-credits",
+      "name": "Google Cloud Research Credits",
+      "provider": "Google Cloud",
+      "categories": [
+        "research"
+      ],
+      "resource_types": [
+        "云抵扣",
+        "CPU",
+        "GPU"
+      ],
+      "benefit": "博士生每次最高 1,000 美元；教师、博士后及合格非营利研究机构研究人员最高 5,000 美元。额度用于获批研究，365 天内或用完即止。",
+      "eligibility": "须为合格机构的博士生、教师、博士后或研究人员，并提交研究提案；硕士生不属于此计划列出的申请对象。",
+      "region": "仅官方列出的合格国家和地区；不能由英文申请页推定中国大陆机构符合资格。",
+      "application": "从官方研究额度页面申请，准备机构身份、研究提案、Cloud 账单账户和预算；通常审核 6–8 周。",
+      "limits": "博士生可每年申请一次；其他申请人的重复资助有额外条件。云抵扣不等于已获得 GPU 配额；不能用于挖矿、支持套餐等排除项目。",
+      "cost_risks": "额度外资源、非覆盖服务及额度耗尽后的使用可能产生账单，须检查实际账单账户。",
+      "status": "application_required",
+      "verification": "official_page",
+      "sources": [
+        "https://edu.google.com/programs/credits/research/",
+        "https://support.google.com/google-cloud-higher-ed/answer/10723679?hl=en",
+        "https://support.google.com/google-cloud-higher-ed/answer/10724468?hl=en"
+      ],
+      "notes": "第三方清单中的“教师无固定上限”不符合本次 Google 官方页面；不要与 AWS 科研额度规则混用。",
+      "verified_on": "2026-10-03"
+    },
+    {
+      "id": "google-cloud-teaching-credits",
+      "name": "Google Cloud Teaching & Learning Credits",
+      "provider": "Google Cloud",
+      "categories": [
+        "education"
+      ],
+      "resource_types": [
+        "云抵扣",
+        "CPU",
+        "教学实验"
+      ],
+      "benefit": "为合格课程的师生提供云抵扣，由教师申请供学生独立动手实验；统一当前金额官方页面未说明。",
+      "eligibility": "院校须授予学位且为非营利机构；教师正在授课，学生正在修读相应课程。美国机构另需区域认证。",
+      "region": "仅限资格页列出的国家和地区；名单包含香港、澳门、台湾，未列中国大陆。",
+      "application": "教师提交课程内容、拟用产品及学生使用计划，处理通常最多 15 个工作日。",
+      "limits": "兑换窗口 16 周；兑换后可用至课程开始后 12 个月。不得用于个人、商业用途或课程公共基础设施。GPU 默认不开启，申请也不保证获批。",
+      "cost_risks": "额度外服务及升级后的账单须由实际账户管理，不能把云抵扣当作无限免费实验环境。",
+      "status": "application_required",
+      "verification": "official_page",
+      "sources": [
+        "https://edu.google.com/programs/credits/teaching/",
+        "https://support.google.com/google-cloud-higher-ed/answer/10324788?hl=en",
+        "https://support.google.com/google-cloud-higher-ed/answer/10723190?hl=en",
+        "https://support.google.com/google-cloud-higher-ed/answer/10324552?hl=en"
+      ],
+      "notes": "FAQ 用 50 美元举例计算旧价格，不能据此推定每名学生当前固定获得 50 美元。",
+      "verified_on": "2026-10-03"
+    },
+    {
+      "id": "google-colab-free",
+      "name": "Google Colab 免费版",
+      "provider": "Google",
+      "categories": [
+        "free-compute",
+        "education"
+      ],
+      "resource_types": [
+        "GPU",
+        "TPU",
+        "CPU"
+      ],
+      "benefit": "免费交互式 Notebook，可分配 GPU/TPU；免费会话最长可达12小时，实际随供给与使用模式变化。",
+      "eligibility": "Google 账户；不要求学生身份。",
+      "region": "国际服务；本页未列完整可申请地区，需按注册主体与服务支持地区核对。",
+      "application": "登录 Colab，新建 Notebook，在运行时设置选择加速器。",
+      "limits": "不保证GPU型号、连续时长或固定周额度；空闲会断开，禁止绕过Notebook界面和多账号规避限额。",
+      "cost_risks": "免费版无固定订阅费；付费计算单元与免费规则不同。需主动保存模型与数据。",
+      "status": "active",
+      "verification": "official_page",
+      "sources": [
+        "https://research.google.com/colaboratory/faq.html"
+      ],
+      "verified_on": "2026-10-03",
+      "notes": "官方明确不公布固定GPU配额，不能宣传为无限GPU。"
+    },
+    {
+      "id": "google-spot-vms",
+      "name": "Google Cloud Spot VMs",
+      "provider": "Google Cloud",
+      "categories": [
+        "low-cost"
+      ],
+      "resource_types": [
+        "GPU",
+        "CPU"
+      ],
+      "benefit": "相对常规实例最高可节省91%；适合能从断点恢复的批处理、训练和仿真。",
+      "eligibility": "具备对应云账户、付款能力及目标机型配额；不是学生专享。",
+      "region": "国际服务；本页未列完整可申请地区，需按注册主体与服务支持地区核对。",
+      "application": "在实例配置选择Spot/可抢占，设置自动保存与重试，再查询目标GPU库存。",
+      "limits": "容量可被回收，GPU配额不代表保证库存；最大折扣不是固定优惠。",
+      "cost_risks": "需计算重跑损耗、磁盘、IP和出网费用；没有设置预算时仍可能持续计费。",
+      "status": "active",
+      "verification": "official_page",
+      "sources": [
+        "https://cloud.google.com/solutions/spot-vms"
+      ],
+      "verified_on": "2026-10-03",
+      "notes": ""
+    },
+    {
+      "id": "google-startups",
+      "name": "Google for Startups Cloud Program",
+      "provider": "Google Cloud",
+      "categories": [
+        "startup"
+      ],
+      "resource_types": [
+        "云抵扣",
+        "CPU",
+        "GPU",
+        "TPU",
+        "API"
+      ],
+      "benefit": "未融资团队可申请2000美元；Seed至Series A普通档最高200,000美元，AI-first档最高350,000美元。",
+      "eligibility": "按公司融资阶段和AI业务属性申请，不是个人开发者自动赠金。",
+      "region": "国际服务；本页未列完整可申请地区，需按注册主体与服务支持地区核对。",
+      "application": "选择Pre-funded或Early stage入口，提交企业、融资和云使用计划。",
+      "limits": "最高金额为对应档位上限；分年抵扣比例、既往领取和GPU/TPU配额要看该档规则。",
+      "cost_risks": "超出赠金、产品排除项及后续抵扣比例会形成自付费用。",
+      "status": "application_required",
+      "verification": "official_page",
+      "sources": [
+        "https://cloud.google.com/startup"
+      ],
+      "verified_on": "2026-10-03",
+      "notes": ""
+    },
+    {
+      "id": "google-tpu-research-cloud",
+      "name": "TPU Research Cloud（TRC）",
+      "provider": "Google Research",
+      "categories": [
+        "research",
+        "free-compute"
+      ],
+      "resource_types": [
+        "TPU"
+      ],
+      "benefit": "获批后为指定 Google Cloud 项目临时授予免费 Cloud TPU 配额，可运行适配 TPU 的模型训练。",
+      "eligibility": "任何人可以登记研究兴趣，由项目滚动审核邀请。参与者须公开研究成果、向 Google 提供使用反馈，并遵守项目条款。",
+      "region": "官方页面未说明完整地区名单；最终仍受 Google Cloud 服务可用性与项目审核约束。",
+      "application": "在 TRC 官网提交 Express interest 表单，获邀后接受邀请并配置项目。",
+      "limits": "每人设备数、统一到期日官方页面未说明。TRC 配额不兼容 CMLE、CAIP、Vertex 工作流；TPU 代码需要框架适配，不能当作 CUDA GPU。",
+      "cost_risks": "免费范围是 TPU；驱动 TPU 的普通虚拟机与 Cloud Storage 等其他 GCP 服务收费。",
+      "status": "application_required",
+      "verification": "official_page",
+      "sources": [
+        "https://sites.research.google/trc/about/",
+        "https://sites.research.google/trc/faq/"
+      ],
+      "notes": "官网所述 1,000 多台设备是项目资源池规模，不能写成每个申请人的额度。",
+      "verified_on": "2026-10-03"
+    },
+    {
+      "id": "gpushare-hengyuan",
+      "name": "恒源云 GPUSHARE GPU 租用",
+      "provider": "恒源云",
+      "categories": [
+        "low-cost",
+        "research"
+      ],
+      "resource_types": [
+        "GPU"
+      ],
+      "benefit": "提供按秒计费及包天、包周、包月、包年 GPU 服务；官方选卡文档有型号与会员价格表，成交价格应以实时云市场为准。",
+      "eligibility": "普通注册用户；可用实例数、单实例显卡数与充值条件关联。",
+      "region": "中国大陆分布式节点，具体可选位置以云市场为准。",
+      "application": "从云市场选卡，比较按量与预付费，再确认镜像、存储和优惠券适用条件。",
+      "limits": "按量创建时冻结一小时实例费用、按小时结算，进入已关机状态后停止实例收费；重启不保证原显卡空闲。",
+      "cost_risks": "云盘、NAS 等存储另计；文档规定本地盘关机超过 24 小时可删除、实例关机超过十天可回收，必须备份数据。",
+      "status": "active",
+      "verification": "official_page",
+      "sources": [
+        "https://gpushare.com/docs/product/price/",
+        "https://gpushare.com/docs/getting-started/car/"
+      ],
+      "verified_on": "2026-10-03",
+      "notes": "官方型号价格表有旧卡与配置笔误迹象，不将该表转成实时价格排行榜；保留官方计费规则入口。"
+    },
+    {
+      "id": "groq-free-api",
+      "name": "GroqCloud 开发者免费API",
+      "provider": "Groq",
+      "categories": [
+        "api"
+      ],
+      "resource_types": [
+        "API"
+      ],
+      "benefit": "可使用按模型限速的推理API；官方Rate Limits分别列请求和token限制。",
+      "eligibility": "支持地区的GroqCloud账户；实际额度按组织Limits页面。",
+      "region": "国际服务；本页未列完整可申请地区，需按注册主体与服务支持地区核对。",
+      "application": "创建API key并选支持模型，读取响应限速信息和控制台组织限额。",
+      "limits": "按组织而非每个用户计量；RPM、TPM、每日请求或音频时长任一先触发就限流。",
+      "cost_risks": "付费升级和超出免费方案按选定服务计费；免费API不是可训练自有模型的GPU。",
+      "status": "active",
+      "verification": "official_page",
+      "sources": [
+        "https://console.groq.com/docs/rate-limits",
+        "https://console.groq.com/docs/billing-faqs"
+      ],
+      "verified_on": "2026-10-03",
+      "notes": ""
+    },
+    {
+      "id": "hangzhou-compute-voucher-policy",
+      "name": "杭州市算力券政策（有效至 2027 年底）",
+      "provider": "杭州市人民政府办公厅",
+      "categories": [
+        "china-policy",
+        "startup",
+        "research"
+      ],
+      "resource_types": [
+        "费用补贴",
+        "GPU"
+      ],
+      "benefit": "政策设每年 2.5 亿元算力券规模；符合条件的 MaaS、Agent 或国产算力训练推理费用最高支持 30%，其他相关算力最高 20%。",
+      "eligibility": "符合文件要求的企业、算力服务及合作范围；单企业一般每年不超过 800 万元，基础大模型企业另按规则。",
+      "region": "杭州市。",
+      "application": "关注杭州市及受理部门当期申报通知，按具体渠道提交算力采购合同与费用材料。",
+      "limits": "政策 2024 年 8 月 19 日施行，有效至 2027 年 12 月 31 日；本轮未核实 2026 年具体申请窗口。",
+      "cost_risks": "补助按审核结果兑现、从优就高不重复；最高比例并非零成本领取，也不能抵任意非指定服务。",
+      "status": "unverified",
+      "verification": "official_page",
+      "sources": [
+        "https://zfgb.hangzhou.gov.cn/10/105220253/t117220253054/518968.shtml"
+      ],
+      "verified_on": "2026-10-03",
+      "notes": "有效政策与当前开放窗口分开记录；2.5 亿元是年度整体规模，不是单个用户额度。"
+    },
+    {
+      "id": "heroku-github-students",
+      "name": "Heroku for GitHub Students",
+      "provider": "Heroku",
+      "categories": [
+        "education",
+        "free-compute"
+      ],
+      "resource_types": [
+        "CPU",
+        "云抵扣"
+      ],
+      "benefit": "获批后提供总计 312 美元平台额度，按每月 13 美元使用 24 个月，可用于 Dynos、Postgres 和 Key-Value Store 等 Heroku 产品。",
+      "eligibility": "须满 18 岁、已加入 GitHub Student Developer Pack，并提供有效信用卡或借记卡；每人只能参加当前计划一次。",
+      "region": "官方优惠页未列完整地区名单，仍须通过 GitHub 与 Heroku 各自账号和付款验证。",
+      "application": "先完成 GitHub 学生认证，进入 Heroku 学生优惠页，登录 Heroku 账号并提交申请。",
+      "limits": "每月未用额度不结转；从获批当月一日开始计算当月额度，月末清零。不适用于付费第三方 Add-ons 或 Heroku Teams。",
+      "cost_risks": "超过每月 13 美元会向绑定卡扣款；24 个月结束后，继续保留收费资源会产生账单。",
+      "status": "application_required",
+      "verification": "official_page",
+      "sources": [
+        "https://www.heroku.com/github-students/"
+      ],
+      "verified_on": "2026-10-03",
+      "notes": "这是应用托管与数据服务额度，未提供可自行训练模型的 GPU。学生包资格和此计划额外年龄条件不同。"
+    },
+    {
+      "id": "hf-inference-credits",
+      "name": "Hugging Face Inference Providers 免费额度",
+      "provider": "Hugging Face",
+      "categories": [
+        "api"
+      ],
+      "resource_types": [
+        "API"
+      ],
+      "benefit": "当前免费用户每月0.10美元推理额度；官方明确该金额可能调整。PRO及组织有不同额度。",
+      "eligibility": "Hugging Face账户，调用支持的Inference Providers。",
+      "region": "国际服务；本页未列完整可申请地区，需按注册主体与服务支持地区核对。",
+      "application": "创建访问token并使用路由请求，在Billing查看本月剩余额度。",
+      "limits": "0.10美元是金额而非固定请求次数；不同模型价格不同，自带供应商key按对方收费。",
+      "cost_risks": "额外推理需购买额度或按量付款；免费层不等于GPU Endpoint托管免费。",
+      "status": "active",
+      "verification": "official_page",
+      "sources": [
+        "https://huggingface.co/docs/inference-providers/pricing"
+      ],
+      "verified_on": "2026-10-03",
+      "notes": ""
+    },
+    {
+      "id": "huawei-developer-space",
+      "name": "华为开发者空间免费云开发环境",
+      "provider": "华为云",
+      "categories": [
+        "free-compute",
+        "education",
+        "open-source"
+      ],
+      "resource_types": [
+        "CPU",
+        "教学实验"
+      ],
+      "benefit": "官网展示 180 小时免费资源算力，提供云桌面、云服务器、容器及多种开发工具，覆盖鲲鹏、昇腾、鸿蒙等开发实践。",
+      "eligibility": "开发者、高校师生及开源项目参与者；账号、领取资格和各环境条件按实际页面确认。",
+      "region": "华为开发者空间中国站；可选资源地域以领取页为准。",
+      "application": "从开发者空间首页选择开发环境，登录后领取并创建工作空间。",
+      "limits": "所读首页未说明 180 小时的发放周期，也未公开统一的 GPU 规格或免费 GPU 时长。",
+      "cost_risks": "按领取额度和回收规则使用，及时备份代码与数据；与华为云其他收费产品的资源账单分开确认。",
+      "status": "active",
+      "verification": "official_page",
+      "sources": [
+        "https://developer.huaweicloud.com/space/developerspace.html"
+      ],
+      "verified_on": "2026-10-03",
+      "notes": "不将免费开发环境宣传自动解释为独享 GPU，也不继承旧社区文章中的周期与续期数字。"
+    },
+    {
+      "id": "huawei-modelarts-codelab",
+      "name": "华为云 ModelArts CodeLab",
+      "provider": "华为云",
+      "categories": [
+        "free-compute",
+        "education"
+      ],
+      "resource_types": [
+        "CPU",
+        "教学实验"
+      ],
+      "benefit": "ModelArts 官方产品页列出 CodeLab 免费算力，可直接进入 Notebook，并从 AI Gallery 案例开展模型开发与学习。",
+      "eligibility": "适用于 AI 学习和案例实验的华为云用户；具体账号与环境创建要求以入口为准。",
+      "region": "以 CodeLab 当前可选地域为准。",
+      "application": "从 ModelArts 产品页的 CodeLab 入口或 AI Gallery 案例进入开发环境。",
+      "limits": "当前产品页未公开统一时长、GPU 保证或保存期限；免费范围仅指 CodeLab 指定资源。",
+      "cost_risks": "商业 Notebook、训练、部署和扩展存储可能另收费；临时实验环境不宜作为唯一数据副本。",
+      "status": "active",
+      "verification": "official_page",
+      "sources": [
+        "https://www.huaweicloud.com/product/modelarts/standard.html"
+      ],
+      "verified_on": "2026-10-03",
+      "notes": "没有将旧文档中的一小时、72 小时等数字写成当前承诺，也未把整个 ModelArts 标为免费。"
+    },
+    {
+      "id": "hugging-face-community-gpu-grants",
+      "name": "Hugging Face Community GPU Grants",
+      "provider": "Hugging Face",
+      "categories": [
+        "open-source",
+        "research"
+      ],
+      "resource_types": [
+        "GPU"
+      ],
+      "benefit": "创新性的社区 Spaces 可申请免费 GPU 硬件升级，由 Hugging Face 承担获批升级的费用。",
+      "eligibility": "以具体 Space 项目的创新价值和社区用途申请；官网未列统一学历或机构要求。",
+      "region": "官方页面未说明完整地区名单。",
+      "application": "进入 Space 的硬件设置，在休眠设置下方使用 Community GPU grant 申请入口。",
+      "limits": "具体 GPU 型号、时长和额度官方页面未说明。资助针对 Spaces 应用演示，不是通用 GPU 虚拟机或长期训练集群保证。",
+      "cost_risks": "未获资助的付费硬件按运行时间收费，即使应用无人使用也可能计费；须确认哪些硬件由资助覆盖。",
+      "status": "application_required",
+      "verification": "official_page",
+      "sources": [
+        "https://huggingface.co/docs/hub/spaces-gpus"
+      ],
+      "notes": "不要与 ZeroGPU 共享配额或 CPU Basic 混为同一权益；本条只记录需审批的社区硬件资助。",
+      "verified_on": "2026-10-03"
+    },
+    {
+      "id": "huggingface-spaces-cpu",
+      "name": "Hugging Face Spaces CPU Basic（需付费计划）",
+      "provider": "Hugging Face",
+      "categories": [
+        "low-cost",
+        "open-source"
+      ],
+      "resource_types": [
+        "CPU"
+      ],
+      "benefit": "CPU Basic本身不收按小时硬件费，默认2 vCPU、16GB内存与50GB非持久磁盘；普通计算Space有计划门槛。",
+      "eligibility": "当前Spaces Overview明确：新建Gradio/Docker计算Space需要付费计划；Static Spaces仍对所有人免费。",
+      "region": "国际服务；本页未列完整可申请地区，需按注册主体与服务支持地区核对。",
+      "application": "先核对账户计划，再创建Space；符合ZeroGPU特殊规则的用户另看ZeroGPU条目。",
+      "limits": "无硬件小时费不等于免费账户能新建计算环境；静态托管不能运行任意服务器端计算。",
+      "cost_risks": "付费计划、GPU升级和持久存储分别计费；非持久磁盘不能作为唯一备份。",
+      "status": "active",
+      "verification": "official_page",
+      "sources": [
+        "https://huggingface.co/docs/hub/spaces-overview"
+      ],
+      "verified_on": "2026-10-03",
+      "notes": "一般Spaces规则与ZeroGPU专页条件不同，分别记录，不能合并成“人人免费CPU/GPU”。"
+    },
+    {
+      "id": "huggingface-zerogpu",
+      "name": "Hugging Face ZeroGPU",
+      "provider": "Hugging Face",
+      "categories": [
+        "free-compute",
+        "api"
+      ],
+      "resource_types": [
+        "GPU",
+        "API"
+      ],
+      "benefit": "为Gradio Spaces按调用动态分配共享GPU；访客可使用已有ZeroGPU应用。",
+      "eligibility": "当前ZeroGPU专页允许邮箱已验证、账户超过30天且状态良好的免费个人账户托管最多2个Space；PRO最多10个。",
+      "region": "国际服务；本页未列完整可申请地区，需按注册主体与服务支持地区核对。",
+      "application": "先试用已有Space；自建项目按ZeroGPU文档配置支持的Gradio/PyTorch应用。",
+      "limits": "免费登录用户每天5分钟GPU量；large为48GB、xlarge为96GB且消耗倍率不同；不能当长期SSH训练服务器。",
+      "cost_risks": "付费档可购买额外GPU时长；免费用户额度耗尽后不能据此保证继续运行。",
+      "status": "active",
+      "verification": "official_page",
+      "sources": [
+        "https://huggingface.co/docs/hub/spaces-zerogpu"
+      ],
+      "verified_on": "2026-10-03",
+      "notes": ""
+    },
+    {
+      "id": "jarvislabs-gpu",
+      "name": "Jarvislabs GPU 与Spot",
+      "provider": "Jarvislabs",
+      "categories": [
+        "low-cost"
+      ],
+      "resource_types": [
+        "GPU"
+      ],
+      "benefit": "提供按分钟付费GPU及Spot。10月3日价目中的H100 SXM按需价为2.69美元/GPU小时。",
+      "eligibility": "注册与付费账户；所选GPU需有库存。",
+      "region": "国际服务；本页未列完整可申请地区，需按注册主体与服务支持地区核对。",
+      "application": "查看Pricing的On-Demand与Spot分页，确认显存和CPU内存后部署。",
+      "limits": "官网已预告10月5日调整部分卡型价格；此处是10月3日快照。Spot最高节省比例不是每个实例保证。",
+      "cost_risks": "关机后的存储与预留方案须另核对；长周期套餐不可与随租价格直接比较。",
+      "status": "active",
+      "verification": "official_page",
+      "sources": [
+        "https://jarvislabs.ai/pricing"
+      ],
+      "verified_on": "2026-10-03",
+      "notes": "H100为80GB；价目写明10月5日将调整H200/H100/RTX PRO 6000。"
+    },
+    {
+      "id": "kaggle-notebooks",
+      "name": "Kaggle Notebooks",
+      "provider": "Kaggle / Google",
+      "categories": [
+        "free-compute",
+        "education"
+      ],
+      "resource_types": [
+        "GPU",
+        "TPU",
+        "CPU"
+      ],
+      "benefit": "免费Notebook与加速器。官方高效用卡指南写GPU每周30小时或随资源供给增加的浮动额度。",
+      "eligibility": "Kaggle账户；加速器及网络功能以账户实际验证和编辑器权限为准。",
+      "region": "国际服务；本页未列完整可申请地区，需按注册主体与服务支持地区核对。",
+      "application": "创建Notebook，在编辑器设置开启GPU/TPU并查看账户剩余额度。",
+      "limits": "GPU与TPU额度独立；硬件、会话上限与账户配额按当前编辑器显示。旧官方说明页存在不同会话时长。",
+      "cost_risks": "免费额度不等于专属、连续运行资源；保存输出和训练断点。",
+      "status": "active",
+      "verification": "official_page",
+      "sources": [
+        "https://www.kaggle.com/docs/efficient-gpu-usage",
+        "https://www.kaggle.com/docs/notebooks"
+      ],
+      "verified_on": "2026-10-03",
+      "notes": "动态文档直接抓取为空，本条依据官方文档的可检索正文；未进行登录后额度验证。"
+    },
+    {
+      "id": "lambda-on-demand",
+      "name": "Lambda GPU Cloud",
+      "provider": "Lambda",
+      "categories": [
+        "low-cost"
+      ],
+      "resource_types": [
+        "GPU"
+      ],
+      "benefit": "提供自助GPU实例与长期集群，价目区分每GPU小时、GPU数量、CPU和内存。",
+      "eligibility": "可付费账户；自助实例按库存先到先得。",
+      "region": "国际服务；本页未列完整可申请地区，需按注册主体与服务支持地区核对。",
+      "application": "在Instances价目选择1/2/4/8卡规格，核算整台实例总价后创建。",
+      "limits": "每GPU小时价格必须乘GPU数量；多卡集群合同价不能当单卡随租价格。",
+      "cost_risks": "税费另计；预留容量和自助实例合同条件不同。",
+      "status": "active",
+      "verification": "official_page",
+      "sources": [
+        "https://lambda.ai/pricing"
+      ],
+      "verified_on": "2026-10-03",
+      "notes": "作为专项GPU云比价选项收录，不代表其每种GPU都比所有供应商便宜。"
+    },
+    {
+      "id": "lambda-research-grants",
+      "name": "Lambda Research Grants",
+      "provider": "Lambda",
+      "categories": [
+        "research"
+      ],
+      "resource_types": [
+        "GPU",
+        "云抵扣"
+      ],
+      "benefit": "合格研究者可获得最高 5,000 美元 Lambda Cloud 额度，用于通过 GPU 实例开发研究并展示成果。",
+      "eligibility": "面向经审核的研究者和研究项目。具体学位、机构和个人身份门槛官方页面未说明。",
+      "region": "官方页面未说明完整地区限制。",
+      "application": "从官方 Research 页面进入研究资助申请表，说明研究目标与算力需求。",
+      "limits": "额度不是自动发放；GPU 型号、供应量、单项目实际额度和有效期官方页面未说明，按获批安排执行。",
+      "cost_risks": "额度抵扣的是指定云服务；超出批准额度或服务范围的费用须自行承担，停止计算后仍应核对附属资源。",
+      "status": "application_required",
+      "verification": "official_page",
+      "sources": [
+        "https://lambda.ai/research"
+      ],
+      "notes": "属于可运行模型训练的 GPU 云资助；与 Lambda 的普通商业租用价格分开记录。",
+      "verified_on": "2026-10-03"
+    },
+    {
+      "id": "lightning-free",
+      "name": "Lightning AI 免费方案与新用户额度",
+      "provider": "Lightning AI",
+      "categories": [
+        "free-compute"
+      ],
+      "resource_types": [
+        "GPU",
+        "CPU"
+      ],
+      "benefit": "官方价格资料列免费CPU Studio及新用户计算额度；可用额度与账户资格以Billing页面为准。",
+      "eligibility": "注册并通过平台要求的验证；额外赠金可能要求绑定付款方式。",
+      "region": "国际服务；本页未列完整可申请地区，需按注册主体与服务支持地区核对。",
+      "application": "查看当前Pricing和Billing FAQ，再在控制台确认额度、有效期和GPU扣费率。",
+      "limits": "本轮主价格页正文未完整返回；官方不同入口的赠金描述存在差异，未将任何固定月GPU小时数列为已确认权益。",
+      "cost_risks": "绑定卡与购买积分会产生独立计费条件；不要沿用第三方“每月80小时免费GPU”的说法。",
+      "status": "unverified",
+      "verification": "official_link_only",
+      "sources": [
+        "https://lightning.ai/pricing",
+        "https://lightning.ai/docs/platform/overview/faq/billing",
+        "https://api.lightning.ai/pricing/"
+      ],
+      "verified_on": "2026-10-03",
+      "notes": "已找到官方项目，固定额度与周期尚待当前账户和页面交叉确认。"
+    },
+    {
+      "id": "microsoft-startups",
+      "name": "Microsoft for Startups",
+      "provider": "Microsoft",
+      "categories": [
+        "startup"
+      ],
+      "resource_types": [
+        "云抵扣",
+        "CPU",
+        "GPU",
+        "API"
+      ],
+      "benefit": "当前项目首页列最高150,000美元创业额度，覆盖符合条件的Azure服务及开发支持。",
+      "eligibility": "需要提交创业公司资料并经审核；不能仅凭创建账户获得最高额度。",
+      "region": "国际服务；本页未列完整可申请地区，需按注册主体与服务支持地区核对。",
+      "application": "从官方Get started进入申请，说明产品、公司和已有Azure使用情况。",
+      "limits": "具体档位、期限及投资者合作渠道可能不同；本条没有把其他渠道最高金额混成统一额度。",
+      "cost_risks": "Azure资源超过可抵扣额度会收费；GPU配额和模型访问需要分别确认。",
+      "status": "application_required",
+      "verification": "official_page",
+      "sources": [
+        "https://www.microsoft.com/en-us/startups"
+      ],
+      "verified_on": "2026-10-03",
+      "notes": ""
+    },
+    {
+      "id": "miracleplus-compute",
+      "name": "奇绩算力支持计划（当前正文待复核）",
+      "provider": "奇绩创坛",
+      "categories": [
+        "research",
+        "startup",
+        "free-compute"
+      ],
+      "resource_types": [
+        "GPU"
+      ],
+      "benefit": "官网搜索索引展示面向 AI 研究的算力支持，最高等值 100 万元；页面索引说明免费支持不要求交换股权。",
+      "eligibility": "索引说明面向高校、科研机构、企业、创业者及个人研究者，采用项目审核。",
+      "region": "索引显示接受全球研究者远程申请，资源在北京；当前地域限制待核。",
+      "application": "从奇绩官方算力页了解申请；索引显示全年滚动、约一至两个月审核，提交前须再次确认。",
+      "limits": "本轮官网正文访问失败，额度分档、资源年限、实际机型和当前是否受理均未独立读到完整规则。",
+      "cost_risks": "不把最高额度写成必获资助；知识产权、进展汇报、商业化与资源使用限制须阅读正式协议。",
+      "status": "unverified",
+      "verification": "official_link_only",
+      "sources": [
+        "https://www.miraclepl.us/cn/compute/",
+        "https://www.miraclepl.us/cn/faq/"
+      ],
+      "verified_on": "2026-10-03",
+      "notes": "信息来自官方页面搜索索引，正文读取失败，因此保留待核状态，不将其列入已验证可申请清单。"
+    },
+    {
+      "id": "modal-academics",
+      "name": "Modal for Academics",
+      "provider": "Modal",
+      "categories": [
+        "research",
+        "education"
+      ],
+      "resource_types": [
+        "GPU",
+        "CPU",
+        "云抵扣"
+      ],
+      "benefit": "学术研究者可申请最高 10,000 美元计算额度，平台支持模型训练、微调、推理和批处理，并提供研究支持。",
+      "eligibility": "需要提交学术项目接受审核。具体学校名单、学位要求与每个实验室可获次数官方页面未说明。",
+      "region": "官方页面未说明完整地区名单。",
+      "application": "通过 Modal Academics 页面的 Academic credits 表单登记项目和需求。",
+      "limits": "页面列有 B200、H100 等 GPU；实际资源与额度由获批项目决定。统一有效期官方页面未说明。",
+      "cost_risks": "Modal 按实际资源使用收费，资助用完后的计算与存储应按账户计费规则管理。",
+      "status": "application_required",
+      "verification": "official_page",
+      "sources": [
+        "https://modal.com/academics"
+      ],
+      "notes": "学术资助与平台普通免费层是两个入口；“最高 1 万美元”不能替换成人人均得。",
+      "verified_on": "2026-10-03"
+    },
+    {
+      "id": "modal-starter",
+      "name": "Modal Starter 免费计算额度",
+      "provider": "Modal",
+      "categories": [
+        "free-compute"
+      ],
+      "resource_types": [
+        "GPU",
+        "CPU"
+      ],
+      "benefit": "Starter每月含30美元计算额度，适用Functions、Sandboxes、Notebooks的CPU、内存和GPU用量。",
+      "eligibility": "注册Modal并使用Starter；付款与账户审核要求在账户中确认。",
+      "region": "国际服务；本页未列完整可申请地区，需按注册主体与服务支持地区核对。",
+      "application": "注册后使用Python SDK或Notebook部署工作负载，并设置支出限额。",
+      "limits": "Shared Endpoints按token计费，不受这30美元计算额度覆盖；GPU与CPU内存分别计量。",
+      "cost_risks": "额度超出后按量收费；容器初始化及保持存活时间可计费，选区和不可抢占选项另有倍率。",
+      "status": "active",
+      "verification": "official_page",
+      "sources": [
+        "https://modal.com/pricing"
+      ],
+      "verified_on": "2026-10-03",
+      "notes": "官方FAQ明确Shared Endpoints从首个请求计费；不能把30美元写成任意模型API赠金。"
+    },
+    {
+      "id": "modal-startups",
+      "name": "Modal for Startups",
+      "provider": "Modal",
+      "categories": [
+        "startup"
+      ],
+      "resource_types": [
+        "GPU",
+        "CPU",
+        "云抵扣"
+      ],
+      "benefit": "申请制GPU计算额度、工程和市场支持；当前页面不公布每档固定美元金额。",
+      "eligibility": "新Modal客户；Seed-A档要求合作VC投资或其他基金投资超过100万美元，扩张档另有要求。",
+      "region": "国际服务；本页未列完整可申请地区，需按注册主体与服务支持地区核对。",
+      "application": "提交Startup credits form，提供公司、投资机构及算力需求。",
+      "limits": "每档一次性资助，不可在同档反复申请；用途、有效期和付款方式以FAQ及批复为准。",
+      "cost_risks": "不要把AWS/GCP一般代金券直接视为可支付Modal；超出Modal赠金按量收费。",
+      "status": "application_required",
+      "verification": "official_page",
+      "sources": [
+        "https://modal.com/startups",
+        "https://modal.com/pricing"
+      ],
+      "verified_on": "2026-10-03",
+      "notes": ""
+    },
+    {
+      "id": "modelscope-notebook-cn",
+      "name": "魔搭 ModelScope Notebook 与教育 GPU 申请（待核）",
+      "provider": "魔搭社区",
+      "categories": [
+        "free-compute",
+        "education",
+        "research"
+      ],
+      "resource_types": [
+        "GPU",
+        "CPU",
+        "教学实验"
+      ],
+      "benefit": "官方社区历史内容介绍云端 Notebook、免费计算资源及面向教育用户的 GPU 申请入口。",
+      "eligibility": "魔搭账号用户；教育申请可能要求教育身份，当前认证方式、地区与审核条件需读取现行规则。",
+      "region": "中国大陆平台，具体账号与地域限制未核实。",
+      "application": "从 ModelScope Notebook 文档和教育 GPU 官方页面进入，在登录后查看当前可领资源与申请表。",
+      "limits": "本轮相关动态页面未返回可读正文，未核实免费时长、卡型、存储、教育加额或申请开放状态。",
+      "cost_risks": "社区文章中的历史额度不能视作当前保证；确认免费与付费资源边界，并保存临时环境数据。",
+      "status": "unverified",
+      "verification": "official_link_only",
+      "sources": [
+        "https://modelscope.cn/docs/notebooks/intro",
+        "https://modelscope.cn/my/mynotebook",
+        "https://modelscope.cn/brand/view/GPU"
+      ],
+      "verified_on": "2026-10-03",
+      "notes": "普通 Notebook 与教育加额合并为一个待核条目，避免把同一资源重复计数；未采用旧文章配额。"
+    },
+    {
+      "id": "nairr-research-resource",
+      "name": "National AI Research Resource（NAIRR）",
+      "provider": "美国 NSF 与 NAIRR 合作机构",
+      "categories": [
+        "research",
+        "education",
+        "free-compute"
+      ],
+      "resource_types": [
+        "GPU",
+        "CPU",
+        "HPC",
+        "API",
+        "云抵扣"
+      ],
+      "benefit": "为研究与教学连接计算、模型、数据、软件和培训资源；具体提供 GPU 集群、云资源还是模型访问，由所选资源和获批项目决定。",
+      "eligibility": "以美国研究和教育共同体为主要服务对象，申请需要项目说明并满足资源提供方及当期征集条件。",
+      "region": "美国项目体系；不能推定全球个人均可直接申请。详细境外合作条件须查对应征集。",
+      "application": "从 NSF 官方 NAIRR 页面进入申请门户，选择科研或课堂等相应入口。",
+      "limits": "没有统一的每人美元额度、GPU 数量或期限。不同资源可有不同资格、配额及使用义务。",
+      "cost_risks": "赞助资源的覆盖范围须按获批通知确认；项目整体捐赠金额不能作为个人资助额。",
+      "status": "application_required",
+      "verification": "official_page",
+      "sources": [
+        "https://www.nsf.gov/focus-areas/ai/nairr",
+        "https://nairrpilot.org/"
+      ],
+      "notes": "NSF 官方页确认项目与入口；门户受抓取限制，未把门户中未展开的具体申请条款标成已核实。",
+      "verified_on": "2026-10-03"
+    },
+    {
+      "id": "nanjing-token-voucher-policy-lead",
+      "name": "南京市 Token 券／算力券政策线索（细则待核）",
+      "provider": "南京市人民政府办公厅",
+      "categories": [
+        "china-policy",
+        "startup",
+        "api"
+      ],
+      "resource_types": [
+        "费用补贴",
+        "API"
+      ],
+      "benefit": "2026 年 9 月发布的重点举措提出细化 Token 券（含算力券）和语料券发放，降低企业和 OPC 使用智能算力、模型服务的成本。",
+      "eligibility": "政策面向相关创新企业及 OPC 生态；具体申请主体、支出门槛仍须以实施细则为准。",
+      "region": "南京市。",
+      "application": "跟踪南京市工业和信息化等主管部门后续申报通知；当前来源不是直接领取入口。",
+      "limits": "官方重点举措未公开本轮额度、比例、单企上限或申请截止日。",
+      "cost_risks": "不能据此先采购并认定必获补贴；支出时间范围、服务商和重复补助限制尚未核实。",
+      "status": "unverified",
+      "verification": "official_page",
+      "sources": [
+        "https://www.nanjing.gov.cn/zzb/zfxxgk/fdzdgknr/szfjbgtwj/202609/t20260924_5917315.html"
+      ],
+      "verified_on": "2026-10-03",
+      "notes": "仅作为政策观察条目；没有继承 2025 年其他批次“30%／200 万元”的旧标准。"
+    },
+    {
+      "id": "nebius-gpu",
+      "name": "Nebius GPU 与可抢占实例",
+      "provider": "Nebius",
+      "categories": [
+        "low-cost"
+      ],
+      "resource_types": [
+        "GPU"
+      ],
+      "benefit": "提供按需与可抢占GPU。官方10月1日起生效列中HGX H100为4.50美元/GPU小时；Spot列为0.79美元起。",
+      "eligibility": "可付费账户；GPU配额和容量按区域确认。",
+      "region": "国际服务；本页未列完整可申请地区，需按注册主体与服务支持地区核对。",
+      "application": "读取价目生效日期，选择按需或可抢占，再核对CPU内存和网络存储。",
+      "limits": "Spot为起价且可回收；旧列3.85美元不能当作10月3日H100当前按需价。",
+      "cost_risks": "单卡价、整机卡数、存储与出网需合算；长期承诺折扣不等于随用随停。",
+      "status": "active",
+      "verification": "official_page",
+      "sources": [
+        "https://nebius.com/prices"
+      ],
+      "verified_on": "2026-10-03",
+      "notes": "同时保留按需和可抢占口径，避免把生效前价格用于预算。"
+    },
+    {
+      "id": "nebius-startups",
+      "name": "Nebius for Startups（候补）",
+      "provider": "Nebius",
+      "categories": [
+        "startup"
+      ],
+      "resource_types": [
+        "GPU",
+        "云抵扣"
+      ],
+      "benefit": "选择性提供算力额度、技术及市场支持；当前主页没有公开统一额度。",
+      "eligibility": "须经Nebius VC合作伙伴申请；当前FAQ要求来自批准伙伴至少500万美元融资、成立不足5年及AI产品。",
+      "region": "国际服务；本页未列完整可申请地区，需按注册主体与服务支持地区核对。",
+      "application": "联系投资方平台团队确认合作资格，再按项目表单提交企业资料。",
+      "limits": "官方当前说明申请人进入候补名单，无法保证响应时间；开放创始人社区不等于获批算力。",
+      "cost_risks": "优惠额度、可用GPU、有效期和后续付费以正式批复为准。",
+      "status": "application_required",
+      "verification": "official_page",
+      "sources": [
+        "https://nebius.com/startups"
+      ],
+      "verified_on": "2026-10-03",
+      "notes": "明确标记候补，不照搬旧合集“人人可申5000美元”或15万美元。"
+    },
+    {
+      "id": "nvidia-academic-grant",
+      "name": "NVIDIA Academic Grant Program",
+      "provider": "NVIDIA",
+      "categories": [
+        "research"
+      ],
+      "resource_types": [
+        "GPU"
+      ],
+      "benefit": "官网保留的征集方案包括最高 30,000 小时 H100 80GB 算力及特定硬件资助；当前停止接收新申请。",
+      "eligibility": "历史申请资格为可授予博士学位的认证学术机构全职教师，研究须符合当期主题并使用 NVIDIA 技术。",
+      "region": "官方介绍面向全球申请；实际仍取决于当期资格与适用限制。",
+      "application": "当前应等待官方恢复通知。页面残留的 Apply Now 按钮不代表已经重新开放。",
+      "limits": "资源按征集方向和评审分配，3 万小时不是普遍保证。有效期与下一次开放日期官方页面未说明。",
+      "cost_risks": "暂停期间不能据历史额度安排已获得资助的预算；配套存储等费用是否覆盖官方页面未说明。",
+      "status": "paused",
+      "verification": "official_page",
+      "sources": [
+        "https://www.nvidia.com/en-us/industries/higher-education-research/academic-grant-program/"
+      ],
+      "notes": "以页首“currently not accepting new applications”状态通知为准。保留该条用于识别第三方清单中的过时申请入口。",
+      "verified_on": "2026-10-03"
+    },
+    {
+      "id": "nvidia-inception",
+      "name": "NVIDIA Inception 初创加速计划",
+      "provider": "NVIDIA",
+      "categories": [
+        "startup"
+      ],
+      "resource_types": [
+        "合作伙伴云额度",
+        "技术支持"
+      ],
+      "benefit": "免费会员计划，提供技术培训、软硬件优惠和合作伙伴云权益；不承诺每家直接获得固定GPU小时。",
+      "eligibility": "已正式注册、成立不足10年、至少1名开发者且有网站的公司；咨询/外包、加密货币、云商及上市公司等不符合。",
+      "region": "国际项目；官方提供中国地区联系入口，具体伙伴云权益仍受地区限制。",
+      "application": "由官方申请入口申请会员，再逐项确认合作伙伴计划资格。",
+      "limits": "会员身份不等于云抵扣自动到账；合作伙伴计划各有地区、融资、期限和产品限制。",
+      "cost_risks": "硬件折扣不是免费硬件，云赠金用尽后按供应商计费。",
+      "status": "application_required",
+      "verification": "official_page",
+      "sources": [
+        "https://www.nvidia.com/en-us/startups/"
+      ],
+      "verified_on": "2026-10-03",
+      "notes": ""
+    },
+    {
+      "id": "openai-researcher-access",
+      "name": "OpenAI Researcher Access Program",
+      "provider": "OpenAI",
+      "categories": [
+        "research",
+        "api"
+      ],
+      "resource_types": [
+        "API"
+      ],
+      "benefit": "获批研究者最高可获得 1,000 美元 API 额度，发放后有效 12 个月。",
+      "eligibility": "研究应服务于负责任部署、安全或社会影响等方向，鼓励处于早期阶段、资金和机构资源有限的研究者申请。",
+      "region": "仅在 OpenAI API 支持的国家和地区提供，申请不会解除地区限制。",
+      "application": "从官网表单提交研究提案；3、6、9、12 月按季度审核，决定后通常需 4–6 周发放额度。",
+      "limits": "额度不能延期或续期，用于公开可用的 API 模型；不是 ChatGPT 订阅，也不提供 GPU 实例。",
+      "cost_risks": "超过或不属于资助范围的 API 使用可能产生费用，应核对对应组织和项目的预算设置。",
+      "status": "application_required",
+      "verification": "official_page",
+      "sources": [
+        "https://openai.com/form/researcher-access-program/"
+      ],
+      "notes": "该额度支持 API 实验，不能写成可自由训练任意大模型的 GPU 资助。",
+      "verified_on": "2026-10-03"
+    },
+    {
+      "id": "openai-startups",
+      "name": "OpenAI 创业支持与VC伙伴额度",
+      "provider": "OpenAI",
+      "categories": [
+        "startup",
+        "api"
+      ],
+      "resource_types": [
+        "API",
+        "技术支持"
+      ],
+      "benefit": "通过符合条件的VC伙伴提供额度与技术、市场支持；当前官方没有公开统一赠金额度。",
+      "eligibility": "VC伙伴投资组合公司可获得额外权益；一般创始人也可参加公开活动与获取技术资料。",
+      "region": "国际服务；本页未列完整可申请地区，需按注册主体与服务支持地区核对。",
+      "application": "询问投资机构是否属于OpenAI伙伴网络，由伙伴给出相应领取流程。",
+      "limits": "公开活动、注册API账户与获得额度是不同权益；API服务还需符合支持地区要求。",
+      "cost_risks": "赠金金额、有效期与产品范围按伙伴批复；ChatGPT订阅不自动转成API余额。",
+      "status": "application_required",
+      "verification": "official_page",
+      "sources": [
+        "https://openai.com/business/why-openai/startups/"
+      ],
+      "verified_on": "2026-10-03",
+      "notes": ""
+    },
+    {
+      "id": "openi-forge",
+      "name": "启智 OpenI AI 协作平台",
+      "provider": "启智社区",
+      "categories": [
+        "free-compute",
+        "research",
+        "education",
+        "open-source"
+      ],
+      "resource_types": [
+        "GPU",
+        "NPU",
+        "教学实验"
+      ],
+      "benefit": "官方项目介绍提供免费云端 GPU/NPU 算力，并整合代码、数据集、镜像及模型调试、训练、推理功能。",
+      "eligibility": "算法开发者、应用开发者、科研人员和学生；实际任务需要注册并符合平台规则。",
+      "region": "中国大陆平台；服务地域和账号限制以控制台为准。",
+      "application": "访问 openi.pcl.ac.cn，创建项目并按云脑任务流程使用资源。",
+      "limits": "当前卡型、每人额度、任务时长和排队规则未在所读官方介绍中公开。",
+      "cost_risks": "免费支持不等于无限资源；NPU 环境与 CUDA 环境不同，训练前须检查框架兼容性并保存结果。",
+      "status": "active",
+      "verification": "official_page",
+      "sources": [
+        "https://openi.org.cn/projects/forge/",
+        "https://openi.pcl.ac.cn"
+      ],
+      "verified_on": "2026-10-03",
+      "notes": "已读官方项目说明，未登录实测；不采用第三方文章中的固定 GPU 配额。"
+    },
+    {
+      "id": "openrouter-free-api",
+      "name": "OpenRouter 免费模型",
+      "provider": "OpenRouter",
+      "categories": [
+        "api"
+      ],
+      "resource_types": [
+        "API"
+      ],
+      "benefit": "目录中标有:free的模型可在平台限制内调用；提供方和模型会变化。",
+      "eligibility": "OpenRouter账户与API key；账号历史充值及端点影响免费请求上限。",
+      "region": "国际服务；本页未列完整可申请地区，需按注册主体与服务支持地区核对。",
+      "application": "选择明确标为free的模型，使用GET /api/v1/key查看该账户的每日额度。",
+      "limits": "平台免费量和上游限流同时适用；当前页面数字为动态内容，本条不写固定每日请求数。",
+      "cost_risks": "误选付费模型、插件或付费路由会消费余额；免费模型也不保证长期可用。",
+      "status": "active",
+      "verification": "official_page",
+      "sources": [
+        "https://openrouter.ai/docs/api-reference/limits"
+      ],
+      "verified_on": "2026-10-03",
+      "notes": ""
+    },
+    {
+      "id": "oracle-academy-cloud",
+      "name": "Oracle Academy Cloud Program",
+      "provider": "Oracle Academy",
+      "categories": [
+        "education"
+      ],
+      "resource_types": [
+        "CPU",
+        "云抵扣",
+        "教学实验"
+      ],
+      "benefit": "机构成员教师及学生可使用 Always Free 云资源，并获得有效一年的 300 美元额度；页面列出 Arm 4 核、24GB 内存等免费资源。",
+      "eligibility": "学校须为 Oracle Academy Institutional 会员，教师可为学生配置账号，用于教学及非营利课程、学位相关研究。",
+      "region": "官方页面未说明完整地区名单；实际云区域与容量依账号供应。",
+      "application": "机构免费加入 Oracle Academy 后，教师通过 Member Hub 申请并管理学生访问。",
+      "limits": "300 美元是一年期教育额度，与普通 OCI 新用户试用时长不同。免费资源为 CPU、数据库和存储，未承诺 GPU 配额。",
+      "cost_risks": "Always Free 仍受资源限额与供应约束；超额服务及试用到期后处理须看具体账号条款。",
+      "status": "application_required",
+      "verification": "official_page",
+      "sources": [
+        "https://academy.oracle.com/en/solutions-cloud.html",
+        "https://academy.oracle.com/en/solutions-cloud-program.html"
+      ],
+      "notes": "主介绍页未列金额，但独立 Cloud Program 官方页明确列出 300 美元、一年。",
+      "verified_on": "2026-10-03"
+    },
+    {
+      "id": "oracle-free-tier",
+      "name": "Oracle Cloud Free Tier",
+      "provider": "Oracle",
+      "categories": [
+        "free-compute"
+      ],
+      "resource_types": [
+        "CPU",
+        "云抵扣"
+      ],
+      "benefit": "符合资格的新用户有300美元、最长30天试用；另有长期免费AMD/Arm CPU、数据库和存储项目。",
+      "eligibility": "每人一个试用/Always Free账户；需有效身份与支持的信用卡或借记卡验证。",
+      "region": "国际服务；本页未列完整可申请地区，需按注册主体与服务支持地区核对。",
+      "application": "在Free Tier页面选择注册地区，区分试用资源和标明Always Free的资源。",
+      "limits": "Always Free受区域容量限制；没有通用免费GPU承诺；30天以上闲置账户可能被视为弃用。",
+      "cost_risks": "转Pay As You Go后，免费范围外用量收费；卡片验证可能产生临时授权冻结。",
+      "status": "active",
+      "verification": "official_page",
+      "sources": [
+        "https://www.oracle.com/cloud/free/"
+      ],
+      "verified_on": "2026-10-03",
+      "notes": "300美元试用不是每月重复赠送，也不等于可直接申请GPU。"
+    },
+    {
+      "id": "ovhcloud-startup",
+      "name": "OVHcloud Startup Program",
+      "provider": "OVHcloud",
+      "categories": [
+        "startup"
+      ],
+      "resource_types": [
+        "云抵扣",
+        "CPU",
+        "GPU"
+      ],
+      "benefit": "Start档12个月10,000欧元云额度及6小时工程支持；Scale档12个月最高100,000欧元与最高20小时支持。",
+      "eligibility": "创业或成长型企业，按Start/Scale标准审核。",
+      "region": "国际服务；本页未列完整可申请地区，需按注册主体与服务支持地区核对。",
+      "application": "选择匹配发展阶段的入口，提交公司、产品和云需求资料。",
+      "limits": "Start和Scale是不同等级，不能相加承诺；GPU覆盖与可用资源需按权益及库存确认。",
+      "cost_risks": "项目到期、额度超出或未覆盖产品产生自付费用。",
+      "status": "application_required",
+      "verification": "official_page",
+      "sources": [
+        "https://startup.ovhcloud.com/en/"
+      ],
+      "verified_on": "2026-10-03",
+      "notes": ""
+    },
+    {
+      "id": "runpod-gpu",
+      "name": "Runpod GPU Pods / Serverless",
+      "provider": "Runpod",
+      "categories": [
+        "low-cost"
+      ],
+      "resource_types": [
+        "GPU"
+      ],
+      "benefit": "提供按量GPU Pods、Serverless和集群。可在同页比较Community/Secure及GPU规格，按当前报价购买。",
+      "eligibility": "可支付的注册账户，资源需在所选地区有库存。",
+      "region": "国际服务；本页未列完整可申请地区，需按注册主体与服务支持地区核对。",
+      "application": "在Pricing选GPU与部署模式，再查看CPU、内存、磁盘、计费单位和最终价格。",
+      "limits": "Pods与Serverless不是同一价格口径；显存、GPU互联、可用区及存储影响实际任务成本。",
+      "cost_risks": "停机磁盘、网络卷和推理闲置策略可能另计费；本目录不保证某型号始终最低价。",
+      "status": "active",
+      "verification": "official_page",
+      "sources": [
+        "https://www.runpod.io/pricing"
+      ],
+      "verified_on": "2026-10-03",
+      "notes": "当前价目已在2026-09-27更新；避免沿用旧合集中的H100起价。"
+    },
+    {
+      "id": "sagemaker-studio-lab",
+      "name": "Amazon SageMaker Studio Lab（仅现有用户）",
+      "provider": "AWS",
+      "categories": [
+        "free-compute",
+        "education"
+      ],
+      "resource_types": [
+        "GPU",
+        "CPU"
+      ],
+      "benefit": "现有账户仍可用：GPU每次最多4小时、每日最多4小时；CPU每次最多4小时、每日最多8小时；15GB存储。",
+      "eligibility": "已持有Studio Lab账户的用户；官方已停止接受新客户。",
+      "region": "国际服务；本页未列完整可申请地区，需按注册主体与服务支持地区核对。",
+      "application": "现有用户登录Studio Lab；新用户不能把此项作为可新申请资源。",
+      "limits": "算力不保证供应，不支持提高时限；官方不计划增加新功能。",
+      "cost_risks": "现有免费服务与收费SageMaker Studio不同；迁移后按目标产品计费。",
+      "status": "closed",
+      "verification": "official_page",
+      "sources": [
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/studio-lab-overview.html"
+      ],
+      "verified_on": "2026-10-03",
+      "notes": "closed 指新用户入口关闭，并不表示现有账户立即停用。"
+    },
+    {
+      "id": "salad-gpu",
+      "name": "SaladCloud GPU 容器",
+      "provider": "Salad",
+      "categories": [
+        "low-cost"
+      ],
+      "resource_types": [
+        "GPU",
+        "CPU"
+      ],
+      "benefit": "消费级GPU容器按运行秒数计费，价目提供多种优先级；最低档部分GPU类别从0.015美元/GPU小时起。",
+      "eligibility": "注册SaladCloud账户，工作负载须可容器化。",
+      "region": "国际服务；本页未列完整可申请地区，需按注册主体与服务支持地区核对。",
+      "application": "按GPU类别和优先级选择容器组，查看当前容量，再设置副本数。",
+      "limits": "最低起价仅适用部分卡型和最低优先级；即使高优先级也会受节点离线影响。",
+      "cost_risks": "CPU/RAM是否包含依产品核对；离线重试和重新加载模型增加完成任务的时间。",
+      "status": "active",
+      "verification": "official_page",
+      "sources": [
+        "https://salad.com/pricing/"
+      ],
+      "verified_on": "2026-10-03",
+      "notes": "0.015美元不是RTX4090或H100的统一价格，不能跨卡型比较。"
+    },
+    {
+      "id": "scaleway-startup",
+      "name": "Scaleway Startup Program",
+      "provider": "Scaleway",
+      "categories": [
+        "startup"
+      ],
+      "resource_types": [
+        "云抵扣",
+        "CPU",
+        "GPU"
+      ],
+      "benefit": "Founders最高1000欧元/12个月；Early Stage为1500欧元/月、6个月；Growth为3000欧元/月、12个月。",
+      "eligibility": "通常成立不足5年、员工少于50人且尚非Scaleway客户；高级档还有月消费门槛。",
+      "region": "国际服务；本页未列完整可申请地区，需按注册主体与服务支持地区核对。",
+      "application": "统一申请表提交公司资料，按委员会审核选择方案。",
+      "limits": "不能把月券当一次到账现金；Early不能直接转Growth，资格与使用期按项目规则。",
+      "cost_risks": "消费超过当月券额度要自付；高档门槛及适用产品会影响实际优惠。",
+      "status": "application_required",
+      "verification": "official_page",
+      "sources": [
+        "https://www.scaleway.com/en/startup-program/"
+      ],
+      "verified_on": "2026-10-03",
+      "notes": ""
+    },
+    {
+      "id": "scnet-core-invitation-2026",
+      "name": "国家超算互联网核心节点邀测计划（2026 年历史活动）",
+      "provider": "国家超算互联网",
+      "categories": [
+        "free-compute",
+        "research",
+        "education",
+        "api"
+      ],
+      "resource_types": [
+        "GPU",
+        "HPC",
+        "API"
+      ],
+      "benefit": "历史快速体验含 100 卡时异构加速卡、500 GB 存储和 1000 万 Tokens；另有 20 卡至千卡、万卡级大规模测试申请。",
+      "eligibility": "企业、高校、科研院所及个人开发者；大规模测试须审核需求，完成后提交测试报告。",
+      "region": "国家超算互联网核心节点。",
+      "application": "原活动页面提供免费领取和测试申请入口；本期已截止，后续需查看新的活动条款。",
+      "limits": "条款明确活动及资源使用期为 2026 年 2 月 5 日至 4 月 30 日，逾期申请无效、未用额度失效。",
+      "cost_risks": "异构卡不等于 NVIDIA CUDA 资源；收费软件和额外资源需另核，图形作业结束后不手动停止可持续计费。",
+      "status": "closed",
+      "verification": "official_page",
+      "sources": [
+        "https://www.scnet.cn/help/docs/mainsite/activity/invite/quick-test/index.html",
+        "https://www.scnet.cn/help/docs/mainsite/activity/invite/special-test/index.html",
+        "https://www.scnet.cn/help/docs/mainsite/activity/invite/rule.html"
+      ],
+      "verified_on": "2026-10-03",
+      "notes": "介绍页仍可访问，但活动条款已截止；不得作为当前可领免费卡时推荐。"
+    },
+    {
+      "id": "shanghai-compute-model-vouchers-2026",
+      "name": "上海 2026 年“模塑申城”算力券与模型券",
+      "provider": "上海市经济和信息化委员会",
+      "categories": [
+        "china-policy",
+        "startup",
+        "research",
+        "api"
+      ],
+      "resource_types": [
+        "费用补贴",
+        "GPU",
+        "API"
+      ],
+      "benefit": "支持符合条件单位采购非关联方智能算力，以及第三方模型 API 或私有化模型部署；本次通知正文未公开统一补贴金额和比例。",
+      "eligibility": "在沪依法经营、具备独立承担民事责任能力的大模型或智能体研发应用单位，信用和财务正常。",
+      "region": "上海市。",
+      "application": "通过上海市经济和信息化委员会专项资金平台申报；通知计划全年分四批，具体批次须再查通知。",
+      "limits": "首批窗口为 2026 年 5 月 8 日至 5 月 27 日；未核实当前季度具体开放窗口。",
+      "cost_risks": "存储、网络、安全等费用不属于本通知算力支持范围；已经其他市级财政支持的项目不可重复。",
+      "status": "unverified",
+      "verification": "official_page",
+      "sources": [
+        "https://www.shanghai.gov.cn/gwk/search/content/cd1dcb1e5cb4449cbc36c69befafcc0a",
+        "https://zxzj.sheitc.sh.gov.cn"
+      ],
+      "verified_on": "2026-10-03",
+      "notes": "官方政策与首批指南已核实，当前可申报状态未核实；不能由“每季度受理”推断今天已开放。"
+    },
+    {
+      "id": "shenzhen-training-voucher-2026",
+      "name": "深圳市 2026 年训力券（本轮已截止）",
+      "provider": "深圳市科技创新局",
+      "categories": [
+        "china-policy",
+        "startup",
+        "research"
+      ],
+      "resource_types": [
+        "费用补贴",
+        "GPU"
+      ],
+      "benefit": "年度非关联方训练推理算力支出达到 50 万元的主体，单次抵扣不超过合同金额 50%，每年最高 1000 万元；注册不足一年初创可到 60%。",
+      "eligibility": "深圳市含深汕合作区的独立法人企业、高校和科研机构，须满足申报指南。",
+      "region": "深圳市及深汕特别合作区。",
+      "application": "通过深圳科技业务管理系统申报并提交合同、支出及项目证明。",
+      "limits": "本轮窗口为 2026 年 5 月 6 日至 6 月 5 日 18:00；往年未兑现额度按通知规则计入当年。",
+      "cost_risks": "是经审核的算力费用补助，未补部分仍需自付；后续兑现通知不等于重新开放申请。",
+      "status": "closed",
+      "verification": "official_page",
+      "sources": [
+        "https://fgw.sz.gov.cn/ztzl/qtztzl/szscjmyjjfzzhfwpt/zcydt/content/post_12770798.html",
+        "https://sticapply.sz.gov.cn"
+      ],
+      "verified_on": "2026-10-03",
+      "notes": "保留准确年度和窗口，避免把政策支持上限当成每家企业必获额度。"
+    },
+    {
+      "id": "tencent-cloud-campus-cn",
+      "name": "腾讯云云＋校园 2026 学生与科研优惠",
+      "provider": "腾讯云",
+      "categories": [
+        "education",
+        "low-cost",
+        "research"
+      ],
+      "resource_types": [
+        "CPU",
+        "GPU",
+        "云抵扣"
+      ],
+      "benefit": "学生认证后可优惠购买指定云服务器；科研区提供 HAI GPU 基础型、进阶型及专属现金券，页面列有半价礼券和按月限量优惠。",
+      "eligibility": "高校学生完成认证；不同商品分别设有限购条件，科研 GPU 定制需求可联系客户经理。",
+      "region": "中国大陆活动，具体云地域和库存以购买页为准。",
+      "application": "进入云＋校园 2026 页面认证，分别查看云服务器、科研 GPU 的商品规则后下单。",
+      "limits": "学生云服务器限购一台；具体 GPU 价格、券面额、有效期和是否可叠加按当期商品规则确认。",
+      "cost_risks": "这是优惠购买计划；数据库、存储等配套资源另购，续费规则与首购价格可能不同。",
+      "status": "active",
+      "verification": "official_page",
+      "sources": [
+        "https://cloud.tencent.com/act/pro/campus2026"
+      ],
+      "verified_on": "2026-10-03",
+      "notes": "页面区分 2026 年 9 月 1 日前资源的原续费入口，不能套用旧校园套餐价格。"
+    },
+    {
+      "id": "tensordock-gpu",
+      "name": "TensorDock GPU Cloud",
+      "provider": "TensorDock",
+      "categories": [
+        "low-cost"
+      ],
+      "resource_types": [
+        "GPU"
+      ],
+      "benefit": "官方首页H100 SXM5为2.25美元/小时起，RTX4090为0.35美元/小时起；实际主机报价随地区和供给变化。",
+      "eligibility": "注册账户并具备可用付款方式；选择支持地区和实例库存。",
+      "region": "国际服务；本页未列完整可申请地区，需按注册主体与服务支持地区核对。",
+      "application": "由官网进入GPU市场，比较单卡价、CPU/RAM、磁盘与主机条件。",
+      "limits": "旧/pricing路径本轮返回404，因此不沿用旧文档的固定起价。",
+      "cost_risks": "存储、网络和长期保留资源按实际订单核算；本轮未完成账户内报价验证。",
+      "status": "active",
+      "verification": "official_page",
+      "sources": [
+        "https://www.tensordock.com/"
+      ],
+      "verified_on": "2026-10-03",
+      "notes": "官方产品仍可访问；历史价格URL失效不等于产品停运。"
+    },
+    {
+      "id": "together-research-credits",
+      "name": "Together Research Credits Program",
+      "provider": "Together AI",
+      "categories": [
+        "research",
+        "api"
+      ],
+      "resource_types": [
+        "API",
+        "云抵扣"
+      ],
+      "benefit": "为研究提供小额平台额度，官网以数百美元规模的课外学生项目为示例，未承诺统一授予金额。",
+      "eligibility": "当前页面明确为邀请制，面向受邀研究者或学生研究项目，需要说明研究想法。",
+      "region": "官方页面未说明完整地区限制。",
+      "application": "从官方 Research Credits Program Request 页面填写申请；没有邀请不能当作普遍开放权益。",
+      "limits": "有效期、具体模型和是否适用独立 GPU 集群官方页面未说明。研究成果须按项目要求致谢 Together。",
+      "cost_risks": "平台其他付费使用不自动纳入赠送额度，不能把该额度当作确定可抵扣 GPU 训练的余额。",
+      "status": "application_required",
+      "verification": "official_page",
+      "sources": [
+        "https://www.together.ai/research-credits-program-request"
+      ],
+      "notes": "当前邀请制是关键门槛；第三方清单只写“免费申请”会遗漏这一条件。",
+      "verified_on": "2026-10-03"
+    },
+    {
+      "id": "together-startup",
+      "name": "Together AI Startup Accelerator",
+      "provider": "Together AI",
+      "categories": [
+        "startup"
+      ],
+      "resource_types": [
+        "GPU",
+        "API",
+        "云抵扣"
+      ],
+      "benefit": "Build/Scale/Grow三档最高15,000/30,000/50,000美元平台额度，并含3/6/10小时工程支持。",
+      "eligibility": "按融资额不超过500万美元、500万—1000万美元、超过1000万美元划档，经筛选录取。",
+      "region": "国际服务；本页未列完整可申请地区，需按注册主体与服务支持地区核对。",
+      "application": "在官方表单填公司、融资与工作负载资料。",
+      "limits": "可用于Serverless推理、专用端点、微调和Instant Clusters；不能用于Reserved GPU Clusters。",
+      "cost_risks": "有效期未在当前主页明确列出；储存、超额和排除项目需确认。",
+      "status": "application_required",
+      "verification": "official_page",
+      "sources": [
+        "https://www.together.ai/startup-accelerator"
+      ],
+      "verified_on": "2026-10-03",
+      "notes": ""
+    },
+    {
+      "id": "upstash-open-source-program",
+      "name": "Upstash Open Source Program",
+      "provider": "Upstash",
+      "categories": [
+        "open-source"
+      ],
+      "resource_types": [
+        "云抵扣"
+      ],
+      "benefit": "官网列出的开源计划包含每月 1,000 美元 Upstash 产品额度和技术支持，但目前停止接收新申请。",
+      "eligibility": "原计划面向使用 Upstash 构建的开源项目，需提交项目及社区情况。",
+      "region": "官方页面未说明地区限制。",
+      "application": "当前页面标明 Applications closed，等待官方恢复，不能承诺现在仍可申领。",
+      "limits": "所支持的是 Redis、向量及相关云数据产品，不是 GPU 训练服务器。获批持续时长和续期机制官方页面未说明。",
+      "cost_risks": "暂停期间不能按每月赠额规划新项目预算；普通 Upstash 付费服务仍适用其商业价格。",
+      "status": "paused",
+      "verification": "official_page",
+      "sources": [
+        "https://upstash.com/open-source"
+      ],
+      "notes": "保留历史权益帮助读者识别过时清单，但申请状态必须与金额同时展示。",
+      "verified_on": "2026-10-03"
+    },
+    {
+      "id": "vast-gpu",
+      "name": "Vast.ai GPU 市场",
+      "provider": "Vast.ai",
+      "categories": [
+        "low-cost"
+      ],
+      "resource_types": [
+        "GPU"
+      ],
+      "benefit": "市场按供需报价，提供On-Demand、Interruptible及Reserved；可用消费级GPU降低短任务成本。",
+      "eligibility": "可支付账户；按任务要求选择主机和机房。",
+      "region": "国际服务；本页未列完整可申请地区，需按注册主体与服务支持地区核对。",
+      "application": "在市场按GPU、显存、可靠性和租用模式筛选，读取完整实例报价后部署。",
+      "limits": "可中断实例会被回收；不同卖家的CPU、带宽、磁盘和网络条件不同。",
+      "cost_risks": "GPU小时价不包含所有任务成本，须检查存储和传输费用；预留计划有承诺期。",
+      "status": "active",
+      "verification": "official_page",
+      "sources": [
+        "https://vast.ai/pricing"
+      ],
+      "verified_on": "2026-10-03",
+      "notes": ""
+    },
+    {
+      "id": "verda-gpu",
+      "name": "Verda GPU Cloud（原DataCrunch）",
+      "provider": "Verda",
+      "categories": [
+        "low-cost"
+      ],
+      "resource_types": [
+        "GPU"
+      ],
+      "benefit": "GPU实例、集群和Serverless容器有独立价目；支持H100/H200/B200等多种规格。",
+      "eligibility": "符合平台开户与付款要求的个人或团队。",
+      "region": "国际服务；本页未列完整可申请地区，需按注册主体与服务支持地区核对。",
+      "application": "从官方Pricing进入所需产品，按币种、GPU数量与区域比较当前报价。",
+      "limits": "实例、Serverless与集群适合不同负载；页面动态报价需在下单前确认。",
+      "cost_risks": "持续存储、预留承诺及税费须并入预算；不记录未经一致口径确认的最低价。",
+      "status": "active",
+      "verification": "official_page",
+      "sources": [
+        "https://verda.com/pricing"
+      ],
+      "verified_on": "2026-10-03",
+      "notes": ""
+    },
+    {
+      "id": "wuhan-eit-compute-service-voucher-2025-2026",
+      "name": "武汉市经信局算力服务券（2025—2026 申领期）",
+      "provider": "武汉市经济和信息化局",
+      "categories": [
+        "china-policy",
+        "startup",
+        "research"
+      ],
+      "resource_types": [
+        "费用补贴",
+        "GPU",
+        "HPC"
+      ],
+      "benefit": "重点支持中小企业，按实际算力服务费 50% 补助，单企业年度最高 20 万元，补助期不超过三年。",
+      "eligibility": "符合武汉市算力服务券管理条件的企业，须使用认定服务商的入选算力产品。",
+      "region": "武汉市。",
+      "application": "在武汉算力服务平台完成认证、提交合同申领额度，经服务商确认和审核后使用、核销、结算。",
+      "limits": "官方公布申领期为 2025 年 10 月 14 日至 2026 年 10 月 13 日；目录有 13 家服务商、52 款产品，批次核销另有期限。",
+      "cost_risks": "不是任意云平台的现金券；需要真实服务与支出证明，超补助部分及不合格费用自付。",
+      "status": "application_required",
+      "verification": "official_page",
+      "sources": [
+        "https://jxj.wuhan.gov.cn/xwzx_9/whjx/202510/t20251029_2668415.html",
+        "https://www.whaihub.cn"
+      ],
+      "verified_on": "2026-10-03",
+      "notes": "本条仅指市经信局这一轮服务券，不与 2026 年市数据局另一项新算力券的额度混用。"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+name: 补充计划
+description: 提交官方算力或支持计划
+title: '[新增] '
+body:
+  - type: input
+    id: program
+    attributes:
+      label: 项目名称与提供方
+    validations:
+      required: true
+  - type: textarea
+    id: sources
+    attributes:
+      label: 官方来源
+      description: 提供能证明权益和申请条件的官方页面。
+    validations:
+      required: true
+  - type: textarea
+    id: terms
+    attributes:
+      label: 权益、资格、地区与期限
+      description: 区分GPU、CPU、API、云抵扣或工具订阅；说明是否需付款、是否有额外费用。
+    validations:
+      required: true
+  - type: textarea
+    id: status
+    attributes:
+      label: 当前状态与核对日期
+      description: 说明是否正在开放、候补、暂停或已截止，不上传私人证件。
+    validations:
+      required: true

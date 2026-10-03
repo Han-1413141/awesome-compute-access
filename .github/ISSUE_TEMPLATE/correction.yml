@@ -1,0 +1,23 @@
+name: 更正现有条目
+description: 报告额度、资格、状态、日期或链接变化
+title: '[更正] '
+body:
+  - type: input
+    id: entry
+    attributes:
+      label: 条目名称或ID
+    validations:
+      required: true
+  - type: textarea
+    id: change
+    attributes:
+      label: 需要更正的内容
+      description: 写清原内容、当前官方说明和适用日期。
+    validations:
+      required: true
+  - type: textarea
+    id: sources
+    attributes:
+      label: 官方依据
+    validations:
+      required: true
